@@ -1,4 +1,8 @@
 body {
+	background: rgb(230,230,230);
+	font-family: monospace;
+	color:green;
+	font-size: 20px;
 
 }
 
@@ -13,6 +17,14 @@ main {
 footer {
 	
 }
+h2{
+	color: green;
+	font-size: 30px;
+	font-family: monospace;
+
+
+}
+
 
 #heading{
 	text-align: center;
@@ -34,4 +46,20 @@ img{
 	width: 75%;
 	margin-left: auto;
 	margin-right: auto;
-  }
+
+}
+
+#buttons{
+	display:grid;
+	background: green;
+
+}
+#imageCaption{
+	text-align: center;
+}
+#mainContent{
+	padding-left:10px;
+	display: grid;
+	background: rgb(180,180,180);
+	border-radius: 8px;
+}
