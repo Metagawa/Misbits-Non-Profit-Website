@@ -3,6 +3,7 @@ body {
 	font-family: monospace;
 	color:green;
 	font-size: 20px;
+	text-align: center;
 
 }
 
@@ -60,6 +61,7 @@ img{
 	display: grid;
 	background: rgb(180,180,180);
 	border-radius: 8px;
+	text-align: left;
 }
 
 a{
