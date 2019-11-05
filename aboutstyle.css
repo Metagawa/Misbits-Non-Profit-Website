@@ -23,6 +23,9 @@ footer {
 	
 
 }
+#footerBar{
+	text-align: center;
+}
 h2{
 	color: chocolate;
 	font-size: 30px;
@@ -45,10 +48,16 @@ h2{
 	top: 0;
 	border-radius: 8px;
 	background: rgb(180,180,180);
+	max-height: 10% !important;
 }
 img{
 
 
+}
+#topLeftImage{
+	width: 3%;
+  height: auto;
+  margin: 5px;
 }
 .center {
   display: block;
@@ -59,6 +68,7 @@ img{
 #wordartimage{
 	height: 40%;
 	width: 40%;
+
 
 }
 
