@@ -16,7 +16,7 @@ main {
 }
 
 footer {
-	
+		text-align: center;
 }
 h2{
 	color: chocolate;
@@ -49,13 +49,27 @@ img{
 	margin-right: auto;
 
 }
+#wordartimage{
+	height: 40%;
+	width: 40%;
 
+}
 
 }
 #imageCaption{
 	text-align: center;
 }
 #mainContent{
+	padding-left:10px;
+	padding-bottom:10px;
+	display: grid;
+	background: rgb(180,180,180);
+	border-radius: 8px;
+	text-align: left;
+	color:black;
+}
+
+#linkContent{
 	padding-left:10px;
 	padding-bottom:10px;
 	display: grid;
