@@ -16,6 +16,10 @@ main {
 }
 
 footer {
+	display: grid;
+	background-color: rgb(120,190,120);
+	position: sticky;
+	bottom: 0px;
 	
 }
 h2{
