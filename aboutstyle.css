@@ -3,7 +3,6 @@ body {
 	font-family: monospace;
 	color:chocolate;
 	font-size: 20px;
-	text-align: center;
 
 }
 
@@ -15,8 +14,14 @@ main {
 
 }
 
+
 footer {
-		text-align: center;
+	display: grid;
+	background-color: rgb(220,190,120);
+	position: sticky;
+	bottom: 0px;
+	
+
 }
 h2{
 	color: chocolate;
@@ -42,12 +47,14 @@ h2{
 	background: rgb(180,180,180);
 }
 img{
-	display: block;
-	border-radius: 5px;
-	width: 75%;
-	margin-left: auto;
-	margin-right: auto;
 
+
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 #wordartimage{
 	height: 40%;
@@ -83,6 +90,18 @@ a{
 	color: black;
 }
 
-a:hover{
-	color: goldenrod;
+a{
+}
+.button {
+  border: none;
+  font-family: 'Oswald', sans-serif;
+  color: chocolate;
+  padding: 2px 2px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.button:hover {
+	background-color: lightgreen;
+	font-family: 'Oswald', sans-serif;
+	color: chocolate;
 }
