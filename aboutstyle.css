@@ -55,10 +55,19 @@ img{
 
 }
 #topLeftImage{
-	width: 3%;
+	width: 150px;
   height: auto;
-  margin: 5px;
+  margin: 30px;
 }
+#topLeftImage:hover {
+	animation: colorRotate 3s linear infinite;
+}
+@keyframes colorRotate {
+  100% {
+    -webkit-filter: hue-rotate(360deg);
+  }
+}
+
 .center {
   display: block;
   margin-left: auto;
