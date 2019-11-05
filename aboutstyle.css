@@ -1,0 +1,74 @@
+body {
+	background: rgb(230,230,230);
+	font-family: monospace;
+	color:chocolate;
+	font-size: 20px;
+	text-align: center;
+
+}
+
+header {
+
+}
+
+main {
+
+}
+
+footer {
+	
+}
+h2{
+	color: chocolate;
+	font-size: 30px;
+	font-family: monospace;
+
+
+}
+
+
+#heading{
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 50px;
+	color: chocolate;
+}
+
+#headerblock{
+	display: grid;
+	position: sticky;
+	top: 0;
+	border-radius: 8px;
+	background: rgb(180,180,180);
+}
+img{
+	display: block;
+	border-radius: 5px;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+}
+#imageCaption{
+	text-align: center;
+}
+#mainContent{
+	padding-left:10px;
+	padding-bottom:10px;
+	display: grid;
+	background: rgb(180,180,180);
+	border-radius: 8px;
+	text-align: left;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: goldenrod;
+}
