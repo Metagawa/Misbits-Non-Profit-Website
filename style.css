@@ -20,6 +20,8 @@ footer {
 	position: sticky;
 	bottom: 0px;
 	border-radius: 8px;
+	width:100vw;
+	max-width:100%;
 }
 
 #footerBar{
