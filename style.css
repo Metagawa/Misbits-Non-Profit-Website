@@ -4,7 +4,6 @@ body {
 	color:green;
 	font-size: 20px;
 	text-align: center;
-
 }
 
 header {
@@ -31,7 +30,6 @@ h2{
 	color: green;
 	font-size: 30px;
 	font-family: monospace;
-
 }
 
 #heading{
@@ -42,7 +40,7 @@ h2{
 }
 
 img{
-	
+
 }
 
 #mainImage{
@@ -51,7 +49,6 @@ img{
 	padding-top: 30px;
 	padding-right: 30px;
 	padding-left: 30px;
-
 }
 
 #imageCaption{
@@ -70,7 +67,6 @@ a{
 	text-decoration: none;
 	color: darkgreen;
 	font-family: 'Oswald', sans-serif;
-
 }
 
 a:hover{
@@ -111,7 +107,7 @@ a:hover{
 }
 .flex-container {
   display: flex;
-  justify-content: space-between;   
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   flex: initial;
