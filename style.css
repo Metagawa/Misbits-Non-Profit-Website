@@ -92,6 +92,12 @@ a:hover{
   }
 }
 
+#titleImage{
+	height: 65px;
+	width: auto;
+	margin: 30px;
+}
+
 /*Taken from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
 /* Style all font awesome icons */
 .fa {
@@ -101,7 +107,7 @@ a:hover{
   text-align: center;
   text-decoration: none;
   border-radius: 15px;
-  margin: 4px;
+  margin: 2px;
 }
 .flex-container {
   display: flex;
@@ -118,7 +124,8 @@ a:hover{
 .centered-element {
   position: absolute;
   left: 50%;
-  margin-left: -275px;
+  margin-left: -310px;
+  flex-wrap: wrap;
 }
 
 /* Add a hover effect if you want */
