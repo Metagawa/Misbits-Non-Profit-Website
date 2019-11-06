@@ -1,6 +1,6 @@
 body {
 	font-family: monospace;
-	color:chocolate;
+	color:green;
 	font-size: 20px;
 	margin: 0px;
 	padding:0px;
@@ -16,7 +16,7 @@ main {
 
 footer {
 	display: grid;
-	background-color: rgb(220,190,120);
+	background-color: rgb(120,190,120);
 	position: fixed;
 	bottom: 0px;
 	width: 100%;
@@ -37,7 +37,7 @@ h2{
 	text-align: center;
 	font-family: 'Lobster', cursive;
 	font-size: auto;
-	color: chocolate;
+	color: green;
 }
 
 img{
@@ -51,41 +51,47 @@ img{
   width: 50%;
 }
 
-#wordartimage{
-	width: 500px;
+#logoFull{
+	width: 800px;
 	height: auto;
-	padding-top: 45px;
-	padding-right: 45px;
-	padding-left: 45px;
-
+	padding: 50px;
 }
 
-#imageCaption{
-	text-align: center;
-}
 #mainContent{
-	padding-left:10px;
-	padding-bottom:10px;
+	padding: 30px;
 	display: grid;
 	background: white;
-	text-align: left;
+	text-align: center;
 	color: black;
-	width: 75%;
-	margin:auto;
-	border-radius: 0px 0px 20px 20px;
+	width: auto;
+	max-width: 1700px;
+	margin-top: 30px;
+	margin-left: 10%;
+	margin-right: 10%;
 	border-style: solid;
 	border-width: 2px;
-	border-color: darkorange;
+	border-color: darkgreen;
+	font-family: 'Oswald', sans-serif;
+	border-radius: 70px;
 }
 
 a{
 	text-decoration: none;
 	text-align: center;
 	font-family: 'Oswald', sans-serif;
-	color: chocolate;
+	color: darkgreen;
 }
 
 a:hover {
+	color: lightgreen;
+}
+
+.textboxlink {	text-decoration: none;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	color: darkgreen;
+}
+.textboxlink: hover {
 	color: maroon;
 }
 
@@ -94,6 +100,7 @@ a:hover {
   height: auto;
   margin: 15px;
 }
+
 #topLeftImage:hover {
 	animation: colorRotate 3s linear infinite;
 }
@@ -138,7 +145,7 @@ margin: 4px;
   width: 20px;
   text-align: center;
   text-decoration: none;
-	background: darkorange;
+	background: green;
 	margin: 2px;
 }
 /* Add a hover effect if you want */
