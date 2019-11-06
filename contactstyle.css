@@ -1,0 +1,165 @@
+body {
+	font-family: monospace;
+	color:chocolate;
+	font-size: 20px;
+	margin: 0px;
+	padding:0px;
+}
+
+header {
+
+}
+
+main {
+
+}
+
+footer {
+	display: grid;
+	background-color: rgb(220,190,120);
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+
+#footerBar{
+	text-align: center;
+}
+
+h2{
+	color: chocolate;
+	font-size: 30px;
+	font-family: monospace;
+
+}
+
+#heading{
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: auto;
+	color: chocolate;
+}
+
+img{
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#wordartimage{
+	width: 500px;
+	height: auto;
+	padding-top: 45px;
+	padding-right: 45px;
+	padding-left: 45px;
+
+}
+
+#imageCaption{
+	text-align: center;
+}
+#mainContent{
+	padding-left:10px;
+	padding-bottom:10px;
+	display: grid;
+	background: white;
+	text-align: left;
+	color: black;
+	width: 75%;
+	margin:auto;
+	border-radius: 0px 0px 20px 20px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: darkorange;
+}
+
+a{
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	color: chocolate;
+}
+
+a:hover {
+	color: maroon;
+}
+
+#topLeftImage{
+  width: 65px;
+  height: auto;
+  margin: 15px;
+}
+#topLeftImage:hover {
+	animation: colorRotate 3s linear infinite;
+}
+@keyframes colorRotate {
+  100% {
+    -webkit-filter: hue-rotate(360deg);
+  }
+}
+
+/*Taken from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
+/* Style all font awesome icons */
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex: initial;
+  background-color: white;
+  height: 100px;
+	/*makes the banner sticky*/
+	position: -webkit-sticky;
+  position: sticky;
+	top: 0px;
+	border-style: solid;
+	border-color: white;
+	border-bottom-color: grey;
+}
+.socmed-container {
+margin: 4px;
+}
+
+.centered-element {
+  position: absolute;
+  left: 50%;
+  margin-left: -75px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+	background: darkorange;
+	margin: 2px;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+  color: white;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  color: white;
+}
+
+/* Reddit */
+.fa-reddit {
+  color: white;
+}
