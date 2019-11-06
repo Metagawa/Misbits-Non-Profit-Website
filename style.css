@@ -115,6 +115,10 @@ a:hover{
   border-radius: 15px;
   position: relative;
   height: 200px;
+	/*makes the banner sticky*/
+	position: -webkit-sticky;
+	position: sticky;
+	top: 10px;
 }
 
 .centered-element {
