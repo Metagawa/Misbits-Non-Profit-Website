@@ -18,8 +18,9 @@ footer {
 	display: grid;
 	background-color: rgb(120,190,120);
 	position: fixed;
-	bottom: 0px;
+	bottom: 0%;
 	width: 100%;
+	height: 3%;
 }
 
 #footerBar{
