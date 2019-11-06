@@ -22,14 +22,17 @@ footer {
 	bottom: 0px;
 	
 }
+
+#footerBar{
+	text-align: center;
+}
+
 h2{
 	color: green;
 	font-size: 30px;
 	font-family: monospace;
 
-
 }
-
 
 #heading{
 	text-align: center;
@@ -38,26 +41,19 @@ h2{
 	color: green;
 }
 
-#headerblock{
-	display: grid;
-	position: sticky;
-	top: 0;
-	border-radius: 8px;
-	background: rgb(180,180,180);
-	z-index:300;
-}
 img{
-	display: block;
-	border-radius: 5px;
-	width: 75%;
-	margin-left: auto;
-	margin-right: auto;
-	animation: colorRotate 3s linear infinite;
+	
+}
+
+#mainImage{
+	width: 700px;
+	height: auto;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-left: 30px;
 
 }
 
-
-}
 #imageCaption{
 	text-align: center;
 }
@@ -72,14 +68,81 @@ img{
 
 a{
 	text-decoration: none;
-	color: black;
+	color: darkgreen;
+	font-family: 'Oswald', sans-serif;
+
 }
 
 a:hover{
-	color: cyan;
+	color: lightgreen;
+}
+
+
+#topLeftImage{
+  width: 150px;
+  height: auto;
+  margin: 30px;
+}
+#topLeftImage:hover {
+	animation: colorRotate 3s linear infinite;
 }
 @keyframes colorRotate {
   100% {
     -webkit-filter: hue-rotate(360deg);
   }
+}
+
+/*Taken from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 15px;
+  margin: 4px;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;   
+  align-items: center;
+  flex-wrap: wrap;
+  flex: initial;
+  background-color: #C0C0C0;
+  border-radius: 15px;
+  position: relative;
+  height: 200px;
+}
+
+.centered-element {
+  position: absolute;
+  left: 50%;
+  margin-left: -275px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+  color: white;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Reddit */
+.fa-reddit {
+  background: #ff5700;
+  color: white;
 }

@@ -5,15 +5,32 @@
 		<title>Limerick Coding Learning Centre</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
-
+		<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+		<!--Taken from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
+		<!-- Add icon library -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- Add font awesome icons -->
 	</head>
-				<body>
-						<div id="headerblock">
-							<header>
-								<h1 id="heading">Limerick Coding Learning Centre</h1>
-							</header>
+				<body>		
+	<body>
+		<div class="flex-container">
 
-						</div>
+			<div>
+					<a href = 'index.html'><img src="images\logo-colour.png" id="topLeftImage"></a>
+				</div>
+				<div class="centered-element">
+					<h1 id="heading">Limerick Coding Learning Centre</h1>
+				</div>	
+					<div style="background-color:darkgray;" class="flex-container">
+					<div>
+				<div>	<a href="https://www.facebook.com/" class="fa fa-facebook" ></a> </div>
+				<div>	<a href="https://twitter.com/home" class="fa fa-twitter" ></a> </div>
+				<div>	<a href="https://reddit.com/" class="fa fa-reddit" ></a> </div>
+					</div>
+			</div>
+		</div>
+	</body>	
+				<body>
 						<section>
 							<img id="mainImage" src="images\students.jpeg" alt="students coding">
 
@@ -34,7 +51,9 @@
 						<l>It starts with a quick 2 week refresher course that introduces the children to using computers and the concepts behind coding.</l>
 						</div>
 						<footer>
-							<l><a href="signup.html">Click here to signup</a>|<a href="about.html">About us</a>|<a href="contact.html">Contact us</a></l>
+							<div id="footerBar">
+								<l><a href="signup.html">Click here to signup</a>|<a href="index.html">Home Page</a>|<a href="contact.html">Contact us</a></l>
+							</div>
 						</footer>
 
 				</body>
