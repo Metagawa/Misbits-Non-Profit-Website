@@ -19,6 +19,8 @@ footer {
 	position: sticky;
 	bottom: 0px;
 	border-radius: 8px;
+	width: auto;
+	height: auto;
 }
 
 #footerBar{
