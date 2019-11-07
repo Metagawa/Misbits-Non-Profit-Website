@@ -1,9 +1,9 @@
 body {
-	background: rgb(230,230,230);
-	font-family: monospace;
+	font-family: 'Oswald', sans-serif;
 	color:green;
 	font-size: 20px;
-	text-align: center;
+	margin: 0px;
+	padding:0px;
 }
 
 header {
@@ -31,7 +31,7 @@ footer {
 h2{
 	color: green;
 	font-size: 30px;
-	font-family: monospace;
+	font-family: 'Oswald', sans-serif;
 }
 
 #heading{
@@ -45,6 +45,13 @@ img{
 
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 #mainImage{
 	width: 700px;
 	height: auto;
@@ -56,20 +63,34 @@ img{
 #imageCaption{
 	text-align: center;
 }
+
+
 #mainContent{
-	padding-left:10px;
-	padding-bottom:10px;
+	padding: 30px;
 	display: grid;
-	background: rgb(180,180,180);
-	border-radius: 8px;
-	text-align: left;
+	background: white;
+	text-align: center;
+	color: black;
+	width: 45%;
+	max-width: 1700px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-width: 2px;
+	border-color: darkgreen;
+	font-family: 'Oswald', sans-serif;
+	border-radius: 70px;
+	position: relative;
 }
 
-a{
-	text-decoration: none;
-	color: darkgreen;
-	font-family: 'Oswald', sans-serif;
-}
+
+	a{
+		text-decoration: none;
+		text-align: center;
+		font-family: 'Oswald', sans-serif;
+		color: darkgreen;
+	}
 
 a:hover{
 	color: lightgreen;
@@ -77,10 +98,11 @@ a:hover{
 
 
 #topLeftImage{
-  width: 150px;
+  width: 65px;
   height: auto;
-  margin: 30px;
+  margin: 15px;
 }
+
 #topLeftImage:hover {
 	animation: colorRotate 3s linear infinite;
 }
@@ -90,46 +112,46 @@ a:hover{
   }
 }
 
-#titleImage{
-	height: 65px;
-	width: auto;
-	margin: 30px;
-}
 
-/*Taken from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
+/*Taken and altered from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
 /* Style all font awesome icons */
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 20px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 15px;
-  margin: 2px;
-}
+
 .flex-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   flex: initial;
-  background-color: #C0C0C0;
-  border-radius: 15px;
-  position: relative;
-  height: 200px;
+  background-color: white;
+  height: 100px;
 	/*makes the banner sticky*/
 	position: -webkit-sticky;
-	position: sticky;
-	top: 10px;
+  position: sticky;
+	top: 0px;
+	border-style: solid;
+	border-color: white;
+	border-bottom-color: grey;
+	z-index: 99 !important;
+}
+.socmed-container {
+margin: 4px;
 }
 
 .centered-element {
   position: absolute;
   left: 50%;
-  margin-left: -310px;
-  flex-wrap: wrap;
+  margin-left: -312px;
 }
 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+	background: green;
+	margin: 2px;
+}
 /* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
@@ -140,18 +162,15 @@ a:hover{
 
 /* Facebook */
 .fa-facebook {
-  background: #3B5998;
   color: white;
 }
 
 /* Twitter */
 .fa-twitter {
-  background: #55ACEE;
   color: white;
 }
 
 /* Reddit */
 .fa-reddit {
-  background: #ff5700;
   color: white;
 }
