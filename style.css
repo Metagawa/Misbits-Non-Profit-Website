@@ -4,6 +4,7 @@ body {
 	font-size: 20px;
 	margin: 0px;
 	padding:0px;
+
 }
 
 header {
@@ -117,7 +118,12 @@ a:hover{
 /* Style all font awesome icons */
 
 .flex-container {
+
   display: flex;
+
+
+  
+
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
@@ -132,6 +138,7 @@ a:hover{
 	border-color: white;
 	border-bottom-color: grey;
 	z-index: 99 !important;
+	
 }
 .socmed-container {
 margin: 4px;
