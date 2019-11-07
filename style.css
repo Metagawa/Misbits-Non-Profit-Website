@@ -18,11 +18,9 @@ main {
 footer {
 	display: grid;
 	background-color: rgb(120,190,120);
-	position: sticky;
+	position: fixed;
 	bottom: 0px;
-	
-	width:100vw;
-	max-width:100%;
+	width: 100%;
 }
 
 #footerBar{
@@ -59,6 +57,7 @@ img{
 	padding-top: 30px;
 	padding-right: 30px;
 	padding-left: 30px;
+
 }
 
 #imageCaption{
@@ -72,7 +71,7 @@ img{
 	background: white;
 	text-align: center;
 	color: black;
-	width: 45%;
+	width: 80%;
 	max-width: 1700px;
 	margin-top: 30px;
 	margin-left: auto;
@@ -83,6 +82,7 @@ img{
 	font-family: 'Oswald', sans-serif;
 	border-radius: 70px;
 	position: relative;
+	font-size: 20px;
 }
 
 
@@ -122,7 +122,7 @@ a:hover{
   display: flex;
 
 
-  
+
 
   justify-content: space-between;
   align-items: center;
@@ -138,7 +138,7 @@ a:hover{
 	border-color: white;
 	border-bottom-color: grey;
 	z-index: 99 !important;
-	
+
 }
 .socmed-container {
 margin: 4px;
