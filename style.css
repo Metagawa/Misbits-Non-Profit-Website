@@ -20,7 +20,7 @@ body {
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: center 5px ;
+  background-position: center -40px;
   background-repeat: no-repeat;
   background-size: cover;
 }
