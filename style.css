@@ -241,3 +241,13 @@ body {
 #footerFont{
   	font-size: 30px
 }
+#signUpForm{
+  text-align: left !important;
+  width: 300px !important;
+  
+  
+  border: 15px #EAEAEA solid;
+  border-radius: 25px;
+  padding: 50px;
+  margin: auto;
+}
