@@ -276,10 +276,11 @@ body {
 }
 #submit{
   font-size: 25px;
+  font-family:"Lobster";
   text-align: center;
   display: block;
   border: 0;
-  background-color: green;
+  background-image: linear-gradient(green, limegreen);
   color: white;
   font-weight:bold;
   margin-top: 10px;
