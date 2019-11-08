@@ -32,6 +32,41 @@
 		</body>
 
 				<div id="mainContent">
+					<form id="signUpForm">
+  <label for="name" id="name-label">Name</label><br>
+  <input type="text" id="name"  required placeholder="Your Name"><br>
+  <label for="email" id="email-label">Email</label><br>
+  <input type="email" id="email"  required placeholder="Your Email address"><br>
+  <label for="number" id="number-label">Age</label><br> 
+  <input type="number" id="number" placeholder="Your age"  min="12" max="99"><br>
+  <label for="dropdown" id="number-label">Which best describes you?</label><br>
+  
+  <select id="dropdown">
+  <option value="student">2nd level student</option>
+  <option value="mentor">Mentor</option>
+  <option value="volunteer">Volunteer</option>
+  <option value="parent">Parent</option>
+</select>
+  <br>
+  <label for="radiobuttons" id="radio-label">How much have you coded much before?</label><br> 
+  <input type="radio" name="experience" value="lot">A lot!!<br>
+<input type="radio" name="experience" value="small">A small bit<br>
+<input type="radio" name="experience" value="none">none<br>
+  <label for="radiobuttons" id="radio-label">What technologies are you interested in?</label><br> 
+  <input type="checkbox" name="thing1" value="webdev"> Web dev<br>
+<input type="checkbox" name="thing2" value="appdev"> App dev<br>
+<input type="checkbox" name="thing3" value="gamedev" checked>Game dev<br>
+   <label for="commentbox" id="comment-label">Any comments?</label><br>
+   <textarea id = "commentbox" rows = "3" cols = "40">Your comment...</textarea><br>
+  <button type="submit" id="submit">Submit</button>
+  
+  
+    </form>
+
+
+
+
+
 
 				</div>
 				<div id="footerBar">
