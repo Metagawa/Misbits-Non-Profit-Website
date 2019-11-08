@@ -13,9 +13,15 @@ body {
 
 }
 
+
+#centeredLeftAlign {
+  text-align: left;
+  display: inline-block
+}
+
 .parallax {
   /* The image used */
-  background-image: url('images/lc.jpg');
+
   height: 80%;
 
   /* Create the parallax scrolling effect */
@@ -126,9 +132,16 @@ body {
 	transform: translate(-50%, -50%);
 }
 
+#falseCenter{
+  position: sticky;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, -50%);
+
+}
 #logoFull{
 	max-width: 600px;
-	width:80vw;
+	width: 70vw;
 	height: auto;
 	padding: 30px;
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
@@ -185,7 +198,7 @@ body {
 	font-family: 'Oswald', sans-serif;
   border-radius: 50px;
 	box-shadow: -0px 0px 30px darkgrey;
-	font-size: 20px
+	font-size: 20px;
 }
 
 #mainContentAbout{
@@ -194,15 +207,21 @@ body {
 	background: #f5f5f5;
 	text-align: center;
 	color: black;
-	width: 55vw;
+	width: 65vw;
 	max-width: 1700px;
 	margin-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
 	font-family: 'Oswald', sans-serif;
-  border-radius: 50px;
+  border-radius: 80px;
 	box-shadow: -0px 0px 30px darkgrey;
-	font-size: 20px
+	font-size: 18px
+}
+
+#videoBlock {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 2vw;
+  margin-bottom: 5vw;
 }
 
 #textboxlink {

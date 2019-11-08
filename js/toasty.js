@@ -46,8 +46,7 @@ function makeToast() {
   document.body.style.backgroundSize = "500px 500px";
   document.body.style.backgroundAttachment = "fixed";
 
+
   var audio = new Audio('audio/toasty.mp3');
   audio.play();
-
-  alert("toasty!");
 }
