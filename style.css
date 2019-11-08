@@ -1,6 +1,13 @@
+html {
+  overflow-x: visible;
+  margin-right: calc(-1 * (100vw - 100%));
+}
+
 body {
 	margin: 0px;
 	padding:0px;
+  background-color: #EAEAEA;
+      overflow-x:hidden;
 }
 
 #heading{
@@ -8,17 +15,18 @@ body {
 	font-family: 'Lobster', cursive;
 	font-size: auto;
 	color: green;
-	font-size: 40px;
+	font-size: auto;
   position: fixed;
   left: 50%;
-  top: 20px;
+  top: 5px;
   transform: translate(-50%, -50%);
 }
 
 #topLeftImage{
-  width: 65px;
+  width: 45px;
   height: auto;
-  margin: 15px;
+  margin: 12px;
+  margin-left: 15px;
 }
 
 #topLeftImage:hover {
@@ -34,31 +42,28 @@ body {
 .flex-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  flex: initial;
   background-color: white;
-  height: 100px;
+  height: 60px;
 	/*makes the banner sticky*/
 	position: -webkit-sticky;
   position: sticky;
 	top: 0px;
-	box-shadow: -1px -5px 25px grey;
+	box-shadow: -0px -0px 3px darkgrey;
 	z-index: 99 !important;
 }
 
 .socmed-container {
 	margin: 4px;
-	padding: 4px;
-	font-size: 20px;
+  margin-right: 24px;
+  padding: 4px;
+
 }
 
 /*Taken and altered from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
 /* Style all font awesome icons */
 
 .fa {
-  padding: 20px;
-  font-size: 30px;
+  padding: 10px;
   width: 20px;
   text-align: center;
   text-decoration: none;
@@ -93,7 +98,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 50vw;
 }
 
 #trueCenter{
@@ -106,15 +111,15 @@ body {
 
 #logoFull{
 	max-width: 600px;
-	width:80%;
-	height: 80%;
+	width:80vw;
+	height: auto;
 	padding: 30px;
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
 	filter:         drop-shadow(-5px 5px 5px #222);
 }
 
 #cardBlock1{
-  width: 55%;
+  width: 55vw;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   margin-top: 50px;
@@ -135,43 +140,36 @@ body {
 }
 
 #mainContent{
-	padding: 10px;
+  padding: 30px;
 	display: grid;
-	background: white;
+	background: #EAEAEA;
 	text-align: center;
 	color: black;
-	width: 55%;
-	max-width: 1700px;
+	width: 55vw;
+  max-width: 1700px;
 	margin-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
-  margin-bottom: 50px;
-	border-style: solid;
-	border-width: 2px;
-	border-color: darkgreen;
 	font-family: 'Oswald', sans-serif;
-	border-radius: 70px;
-	box-shadow: -1px 10px 10px darkgrey;
+  border-radius: 50px;
+	box-shadow: -0px 0px 30px darkgrey;
 	font-size: 20px
 }
 
 #mainContentAbout{
 	padding: 30px;
 	display: grid;
-	background: white;
+	background: #EAEAEA;
 	text-align: center;
 	color: black;
-	width: 90%;
+	width: 55vw;
 	max-width: 1700px;
 	margin-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
-	border-style: solid;
-	border-width: 2px;
-	border-color: darkgreen;
 	font-family: 'Oswald', sans-serif;
-	border-radius: 70px;
-	box-shadow: -1px 10px 10px darkgrey;
+  border-radius: 50px;
+	box-shadow: -0px 0px 30px darkgrey;
 	font-size: 20px
 }
 
@@ -193,12 +191,12 @@ body {
 }
 
 #footerBar{
-	text-align: center;
+  text-align: center;
 	display: grid;
 	background-color: rgb(120,190,120);
 	position: fixed;
 	bottom: 0px;
-	width: 100%;
+	width: 100vw;
 	font-size: 20px;
   color: darkgreen;
 }
