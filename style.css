@@ -43,7 +43,7 @@ body {
 	position: -webkit-sticky;
   position: sticky;
 	top: 0px;
-	box-shadow: -1px 5px 10px grey;
+	box-shadow: -1px -5px 25px grey;
 	z-index: 99 !important;
 }
 
@@ -151,7 +151,7 @@ body {
 	border-color: darkgreen;
 	font-family: 'Oswald', sans-serif;
 	border-radius: 70px;
-	box-shadow: -1px 0px 30px grey;
+	box-shadow: -1px 10px 10px darkgrey;
 	font-size: 20px
 }
 
@@ -171,7 +171,7 @@ body {
 	border-color: darkgreen;
 	font-family: 'Oswald', sans-serif;
 	border-radius: 70px;
-	box-shadow: -1px 0px 30px grey;
+	box-shadow: -1px 10px 10px darkgrey;
 	font-size: 20px
 }
 
