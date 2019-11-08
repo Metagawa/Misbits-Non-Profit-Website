@@ -1,102 +1,19 @@
 body {
-	font-family: 'Oswald', sans-serif;
-	color:green;
-	font-size: 20px;
 	margin: 0px;
 	padding:0px;
-
-}
-
-header {
-
-}
-
-main {
-
-}
-
-footer {
-	display: grid;
-	background-color: rgb(120,190,120);
-	position: fixed;
-	bottom: 0px;
-	width: 100%;
-}
-
-#footerBar{
-	text-align: center;
-}
-
-h2{
-	color: green;
-	font-size: 30px;
-	font-family: 'Oswald', sans-serif;
 }
 
 #heading{
 	text-align: center;
 	font-family: 'Lobster', cursive;
-	font-size: 50px;
+	font-size: auto;
 	color: green;
+	font-size: 40px;
+  position: fixed;
+  left: 50%;
+  top: 20px;
+  transform: translate(-50%, -50%);
 }
-
-img{
-
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-#mainImage{
-	width: 700px;
-	height: auto;
-	padding-top: 30px;
-	padding-right: 30px;
-	padding-left: 30px;
-
-}
-
-#imageCaption{
-	text-align: center;
-}
-
-
-#mainContent{
-	padding: 30px;
-	display: grid;
-	background: white;
-	text-align: center;
-	color: black;
-	width: 80%;
-	max-width: 1700px;
-	margin-top: 30px;
-	margin-left: auto;
-	margin-right: auto;
-	border-style: solid;
-	border-width: 2px;
-	border-color: darkgreen;
-	font-family: 'Oswald', sans-serif;
-	border-radius: 70px;
-	position: relative;
-	font-size: 20px;
-}
-
-
-	a{
-		text-decoration: none;
-		text-align: center;
-		font-family: 'Oswald', sans-serif;
-		color: darkgreen;
-	}
-
-a:hover{
-	color: lightgreen;
-}
-
 
 #topLeftImage{
   width: 65px;
@@ -105,25 +22,17 @@ a:hover{
 }
 
 #topLeftImage:hover {
+
 	animation: colorRotate 3s linear infinite;
 }
-@keyframes colorRotate {
-  100% {
-    -webkit-filter: hue-rotate(360deg);
+	@keyframes colorRotate {
+  	100% {
+    	-webkit-filter: hue-rotate(360deg);
   }
 }
 
-
-/*Taken and altered from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
-/* Style all font awesome icons */
-
 .flex-container {
-
   display: flex;
-
-
-
-
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
@@ -134,21 +43,18 @@ a:hover{
 	position: -webkit-sticky;
   position: sticky;
 	top: 0px;
-	border-style: solid;
-	border-color: white;
-	border-bottom-color: grey;
+	box-shadow: -1px 5px 10px grey;
 	z-index: 99 !important;
-
 }
+
 .socmed-container {
-margin: 4px;
+	margin: 4px;
+	padding: 4px;
+	font-size: 20px;
 }
 
-.centered-element {
-  position: absolute;
-  left: 50%;
-  margin-left: -312px;
-}
+/*Taken and altered from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
+/* Style all font awesome icons */
 
 .fa {
   padding: 20px;
@@ -158,14 +64,15 @@ margin: 4px;
   text-decoration: none;
 	background: green;
 	margin: 2px;
+	box-shadow: -1px 2px 5px grey;
 }
-/* Add a hover effect if you want */
+
 .fa:hover {
   opacity: 0.7;
   color: white;
 }
 
-/* Set a specific color for each brand */
+/* Sets a specific color for each brand */
 
 /* Facebook */
 .fa-facebook {
@@ -180,4 +87,122 @@ margin: 4px;
 /* Reddit */
 .fa-reddit {
   color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#trueCenter{
+	/*Centers whatever has this id in the true center of the page*/
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#logoFull{
+	max-width: 600px;
+	width:80%;
+	height: 80%;
+	padding: 30px;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter:         drop-shadow(-5px 5px 5px #222);
+}
+
+#cardBlock1{
+  width: 55%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+#mainImage{
+  width: 100%;
+}
+
+#imageCaption{
+  font-family: 'Oswald', sans-serif;
+  color:green;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+#mainContent{
+	padding: 10px;
+	display: grid;
+	background: white;
+	text-align: center;
+	color: black;
+	width: 55%;
+	max-width: 1700px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+  margin-bottom: 50px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: darkgreen;
+	font-family: 'Oswald', sans-serif;
+	border-radius: 70px;
+	box-shadow: -1px 0px 30px grey;
+	font-size: 20px
+}
+
+#mainContentAbout{
+	padding: 30px;
+	display: grid;
+	background: white;
+	text-align: center;
+	color: black;
+	width: 90%;
+	max-width: 1700px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-width: 2px;
+	border-color: darkgreen;
+	font-family: 'Oswald', sans-serif;
+	border-radius: 70px;
+	box-shadow: -1px 0px 30px grey;
+	font-size: 20px
+}
+
+#textboxlink {
+  text-decoration: none;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	color: green;
+}
+
+#textboxlink:hover {
+	color: OrangeRed;
+}
+
+.centered-element {
+  position: absolute;
+  left: 50%;
+  margin-left: -75px;
+}
+
+#footerBar{
+	text-align: center;
+	display: grid;
+	background-color: rgb(120,190,120);
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	font-size: 20px;
+  color: darkgreen;
+}
+
+#footerFont{
+  	font-size: 30px
 }
