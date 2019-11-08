@@ -283,13 +283,8 @@ body {
   border-radius: 50px;
   box-shadow: -0px 0px 30px darkgrey;
   font-size: 20px;
-<<<<<<< HEAD
-
-=======
   animation: colorRotate 6s linear infinite;
-  
->>>>>>> b14fa1413f0e2ea9e7cbc35e06b01a66fd9f1b33
-}
+
 #submit{
   font-size: 25px;
   font-family:"Lobster";
