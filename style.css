@@ -237,6 +237,7 @@ body {
 #textboxlink {
   text-decoration: none;
 	text-align: center;
+  padding: 1vw;
 	font-family: 'Oswald', sans-serif;
 	color: green;
 }
