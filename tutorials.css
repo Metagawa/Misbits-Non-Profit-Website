@@ -1,48 +1,41 @@
 body {
-	font-family: monospace;
-	color:chocolate;
-	font-size: 20px;
-	margin: 0px;
-	padding:0px;
+  font-family: monospace;
+  color: chocolate;
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
 }
 
-header {
+header {}
 
-}
-
-main {
-
-}
+main {}
 
 footer {
-	display: grid;
-	background-color: rgb(220,190,120);
-	position: fixed;
-	bottom: 0px;
-	width: 100%;
+  display: grid;
+  background-color: rgb(220, 190, 120);
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
 
-#footerBar{
-	text-align: center;
+#footerBar {
+  text-align: center;
 }
 
-h2{
-	color: chocolate;
-	font-size: 30px;
-	font-family: monospace;
-
+h2 {
+  color: chocolate;
+  font-size: 30px;
+  font-family: monospace;
 }
 
-#heading{
-	text-align: center;
-	font-family: 'Lobster', cursive;
-	font-size: auto;
-	color: chocolate;
+#heading {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: auto;
+  color: chocolate;
 }
 
-img{
-
-}
+img {}
 
 .center {
   display: block;
@@ -51,52 +44,54 @@ img{
   width: 50%;
 }
 
-#wordartimage{
-	width: 500px;
-	height: auto;
-	padding-top: 45px;
-	padding-right: 45px;
-	padding-left: 45px;
-
+#wordartimage {
+  width: 500px;
+  height: auto;
+  padding-top: 45px;
+  padding-right: 45px;
+  padding-left: 45px;
 }
 
-#imageCaption{
-	text-align: center;
-}
-#mainContent{
-	padding-left:10px;
-	padding-bottom:10px;
-	display: grid;
-	background: white;
-	text-align: left;
-	color: black;
-	width: 75%;
-	margin:auto;
-	border-radius: 0px 0px 20px 20px;
-	border-style: solid;
-	border-width: 2px;
-	border-color: darkorange;
+#imageCaption {
+  text-align: center;
 }
 
-a{
-	text-decoration: none;
-	text-align: center;
-	font-family: 'Oswald', sans-serif;
-	color: chocolate;
+#mainContent {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  display: grid;
+  background: white;
+  text-align: left;
+  color: black;
+  width: 75%;
+  margin: auto;
+  border-radius: 0px 0px 20px 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: darkorange;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  color: chocolate;
 }
 
 a:hover {
-	color: maroon;
+  color: maroon;
 }
 
-#topLeftImage{
+#topLeftImage {
   width: 65px;
   height: auto;
   margin: 15px;
 }
+
 #topLeftImage:hover {
-	animation: colorRotate 3s linear infinite;
+  animation: colorRotate 3s linear infinite;
 }
+
 @keyframes colorRotate {
   100% {
     -webkit-filter: hue-rotate(360deg);
@@ -105,7 +100,6 @@ a:hover {
 
 /*Taken from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
 /* Style all font awesome icons */
-
 .flex-container {
   display: flex;
   justify-content: space-between;
@@ -114,16 +108,17 @@ a:hover {
   flex: initial;
   background-color: white;
   height: 100px;
-	/*makes the banner sticky*/
-	position: -webkit-sticky;
+  /*makes the banner sticky*/
+  position: -webkit-sticky;
   position: sticky;
-	top: 0px;
-	border-style: solid;
-	border-color: white;
-	border-bottom-color: grey;
+  top: 0px;
+  border-style: solid;
+  border-color: white;
+  border-bottom-color: grey;
 }
+
 .socmed-container {
-margin: 4px;
+  margin: 4px;
 }
 
 .centered-element {
@@ -138,9 +133,10 @@ margin: 4px;
   width: 20px;
   text-align: center;
   text-decoration: none;
-	background: darkorange;
-	margin: 2px;
+  background: darkorange;
+  margin: 2px;
 }
+
 /* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
@@ -148,7 +144,6 @@ margin: 4px;
 }
 
 /* Set a specific color for each brand */
-
 /* Facebook */
 .fa-facebook {
   color: white;
