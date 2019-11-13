@@ -29,6 +29,16 @@ body {
   background-size: cover;
 }
 
+.parallaxShorter {
+  height: 45%;
+  background-image: url('images/lc.jpg');
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .parallaxLogo {
   position: sticky;
   top: 45vh;
@@ -37,6 +47,20 @@ body {
   min-width: 20vw;
   min-height: 15vw;
   max-width: 40vw;
+  max-height: 30vw;
+  object-fit: contain;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter:         drop-shadow(-5px 5px 5px #222);
+}
+
+.parallaxLogoShorter {
+  position: sticky;
+  top: 40vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  min-width: 25vw;
+  min-height: 15vw;
+  max-width: 25vw;
   max-height: 30vw;
   object-fit: contain;
   -webkit-filter: drop-shadow(5px 5px 5px #222);
@@ -235,10 +259,6 @@ body {
 	color: green;
 }
 
-#textboxlink:hover {
-	color: OrangeRed;
-}
-
 .centered-element {
   position: absolute;
   left: 50%;
@@ -246,6 +266,7 @@ body {
 }
 
 #footerBar{
+  text-decoration: none;
 	position: fixed;
 	bottom: 0px;
 	width: 100vw;
@@ -257,11 +278,12 @@ body {
   height: 35px;
   box-shadow: -0px -0px 3px darkgrey;
   z-index: 99;
+  text-align: center;
+  padding: 1vw;
+  font-family: 'Oswald', sans-serif;
+
 }
 
-#footerFont{
-  	font-size: 30px
-}
 #mainContentSignUp{
   padding: 30px;
   display: inline-block;
@@ -298,5 +320,20 @@ body {
   height: 30px;
 
 
+
+}
+l>a:link{
+  text-decoration: none;
+  color: green;
+
+}
+l>a:visited{
+  text-decoration: none;
+  color: green;
+
+}
+l>a:hover{
+  text-decoration: none;
+  color: orange;
 
 }
