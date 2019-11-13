@@ -119,7 +119,8 @@ body {
   justify-content: space-around;
   border-radius: 50px;
     box-shadow: -0px -0px 15px darkgrey;
-
+    height: 40vh;
+    width: 70vw;
 }
 
 .tutorial-big-container {
@@ -165,12 +166,6 @@ body {
   color: white;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50vw;
-}
 
 #trueCenter {
   /*Centers whatever has this id in the true center of the page*/
@@ -198,7 +193,8 @@ body {
 }
 
 #cardBlock {
-  width: 70vw;
+  width: 70%;
+  max-height: 500px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   margin-top: 2vw;
@@ -238,8 +234,10 @@ body {
 #imageCaption {
   font-family: 'Oswald', sans-serif;
   color: green;
-  font-size: 15px;
   padding-bottom: 10px;
+  font-size: 100%;
+  height: auto;
+  min-height: 100%;
 }
 
 #mainContent {
@@ -313,7 +311,6 @@ body {
 }
 
 #footerBar {
-  text-decoration: none;
   position: fixed;
   bottom: 0px;
   width: 100vw;
@@ -326,7 +323,7 @@ body {
   box-shadow: -0px -0px 3px darkgrey;
   z-index: 99;
   text-align: center;
-  padding: 1vw;
+  padding: 0.5vh;
   font-family: 'Oswald', sans-serif;
 }
 
