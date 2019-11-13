@@ -119,6 +119,13 @@ body {
   justify-content: space-between;
 }
 
+.tutorial-big-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
 /*Taken and altered from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
 /* Style all font awesome icons */
 .fa {
