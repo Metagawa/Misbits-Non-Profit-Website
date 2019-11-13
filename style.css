@@ -5,14 +5,12 @@ html {
 }
 
 body {
-	margin: 0px;
-	padding: 0px;
+  margin: 0px;
+  padding: 0px;
   background-color: #f5f5f5;
-  overflow-x:hidden;
+  overflow-x: hidden;
   height: 100%;
-
 }
-
 
 #centeredLeftAlign {
   text-align: left;
@@ -50,7 +48,7 @@ body {
   max-height: 30vw;
   object-fit: contain;
   -webkit-filter: drop-shadow(5px 5px 5px #222);
-  filter:         drop-shadow(-5px 5px 5px #222);
+  filter: drop-shadow(-5px 5px 5px #222);
 }
 
 .parallaxLogoShorter {
@@ -64,22 +62,22 @@ body {
   max-height: 30vw;
   object-fit: contain;
   -webkit-filter: drop-shadow(5px 5px 5px #222);
-  filter:         drop-shadow(-5px 5px 5px #222);
+  filter: drop-shadow(-5px 5px 5px #222);
 }
 
-#heading{
-	text-align: center;
-	font-family: 'Lobster', cursive;
-	font-size: auto;
-	color: green;
-	font-size: auto;
+#heading {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: auto;
+  color: green;
+  font-size: auto;
   position: fixed;
   left: 50%;
   top: 5px;
   transform: translate(-50%, -50%);
 }
 
-#topLeftImage{
+#topLeftImage {
   width: 45px;
   height: auto;
   margin: 12px;
@@ -87,11 +85,12 @@ body {
 }
 
 #topLeftImage:hover {
-	animation: colorRotate 3s linear infinite;
+  animation: colorRotate 3s linear infinite;
 }
-	@keyframes colorRotate {
-  	100% {
-    	-webkit-filter: hue-rotate(360deg);
+
+@keyframes colorRotate {
+  100% {
+    -webkit-filter: hue-rotate(360deg);
   }
 }
 
@@ -101,32 +100,35 @@ body {
   background-color: white;
   height: 60px;
   width: 100vw;
-	/*makes the banner fixed*/
-	position: -webkit-sticky;
+  /*makes the banner fixed*/
+  position: -webkit-sticky;
   position: fixed;
-	top: 0px;
-	box-shadow: -0px -0px 3px darkgrey;
-	z-index: 99;
+  top: 0px;
+  box-shadow: -0px -0px 3px darkgrey;
+  z-index: 99;
 }
 
 .socmed-container {
-	margin: 4px;
+  margin: 4px;
   margin-right: 24px;
   padding: 4px;
+}
 
+.tutorial-flex-container {
+  display: flex;
+  justify-content: space-between;
 }
 
 /*Taken and altered from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
 /* Style all font awesome icons */
-
 .fa {
   padding: 10px;
   width: 20px;
   text-align: center;
   text-decoration: none;
-	background: green;
-	margin: 2px;
-	box-shadow: -1px 2px 5px grey;
+  background: green;
+  margin: 2px;
+  box-shadow: -1px 2px 5px grey;
 }
 
 .fa:hover {
@@ -135,7 +137,6 @@ body {
 }
 
 /* Sets a specific color for each brand */
-
 /* Facebook */
 .fa-facebook {
   color: white;
@@ -158,20 +159,19 @@ body {
   width: 50vw;
 }
 
-#trueCenter{
-	/*Centers whatever has this id in the true center of the page*/
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+#trueCenter {
+  /*Centers whatever has this id in the true center of the page*/
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-#falseCenter{
+#falseCenter {
   position: sticky;
   top: 50%;
   left: 50%;
   transform: translate(0%, -50%);
-
 }
 
 .card-container {
@@ -184,7 +184,7 @@ body {
   background-color: white;
 }
 
-#cardBlock{
+#cardBlock {
   width: 70vw;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
@@ -194,7 +194,7 @@ body {
   margin-bottom: 5vw;
 }
 
-#mainImage{
+#mainImage {
   width: 100%;
   min-width: 20vw;
   max-width: 40vw;
@@ -203,46 +203,81 @@ body {
   object-fit: contain;
 }
 
-#imageCaption{
+#mainImageTutorial {
+  width: 50%;
+  height: 100%;
+  border-radius: 50px;
+  margin-right: 50px;
+  box-shadow: -0px -0px 20px darkgrey;
+  object-fit: cover;
+}
+#mainImageTutorialRight {
+  width: 50%;
+  height: 100%;
+  border-radius: 50px;
+  margin-left: 50px;
+  box-shadow: -0px -0px 20px darkgrey;
+  object-fit: cover;
+}
+#imageCaption {
   font-family: 'Oswald', sans-serif;
-  color:green;
+  color: green;
   font-size: 15px;
   padding-bottom: 10px;
 }
 
-#mainContent{
+#mainContent {
   padding: 30px;
-	display: grid;
-	background: #f5f5f5;
-	text-align: center;
-	color: black;
-	width: 55vw;
+  display: grid;
+  background: #f5f5f5;
+  text-align: center;
+  color: black;
+  width: 55vw;
   max-width: 1700px;
-	margin-top: 50px;
-	margin-left: auto;
-	margin-right: auto;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 50px;
-	font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif;
   border-radius: 50px;
-	box-shadow: -0px 0px 30px darkgrey;
-	font-size: 20px;
+  box-shadow: -0px 0px 30px darkgrey;
+  font-size: 20px;
 }
 
-#mainContentAbout{
-	padding: 30px;
-	display: grid;
-	background: #f5f5f5;
-	text-align: center;
-	color: black;
-	width: 65vw;
-	max-width: 1700px;
-	margin-top: 30px;
-	margin-left: auto;
-	margin-right: auto;
-	font-family: 'Oswald', sans-serif;
+#mainContentTutorial {
+  padding: 30px;
+  display: grid;
+  background: #f5f5f5;
+  text-align: left;
+  color: black;
+  width: 55vw;
+  max-width: 1700px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 50px;
+  box-shadow: -0px 0px 30px darkgrey;
+  font-size: 20px;
+  transform: translate(0%, 50%);
+}
+
+#mainContentAbout {
+  padding: 30px;
+  display: grid;
+  background: #f5f5f5;
+  text-align: center;
+  color: black;
+  width: 65vw;
+  max-width: 1700px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Oswald', sans-serif;
   border-radius: 80px;
-	box-shadow: -0px 0px 30px darkgrey;
-	font-size: 18px
+  box-shadow: -0px 0px 30px darkgrey;
+  font-size: 18px
 }
 
 #videoBlock {
@@ -253,10 +288,10 @@ body {
 
 #textboxlink {
   text-decoration: none;
-	text-align: center;
+  text-align: center;
   padding: 1vw;
-	font-family: 'Oswald', sans-serif;
-	color: green;
+  font-family: 'Oswald', sans-serif;
+  color: green;
 }
 
 .centered-element {
@@ -265,12 +300,12 @@ body {
   margin-left: -75px;
 }
 
-#footerBar{
+#footerBar {
   text-decoration: none;
-	position: fixed;
-	bottom: 0px;
-	width: 100vw;
-	font-size: 20px;
+  position: fixed;
+  bottom: 0px;
+  width: 100vw;
+  font-size: 20px;
   color: darkgreen;
   display: flex;
   justify-content: space-around;
@@ -281,14 +316,12 @@ body {
   text-align: center;
   padding: 1vw;
   font-family: 'Oswald', sans-serif;
-
 }
 
-#mainContentSignUp{
+#mainContentSignUp {
   padding: 30px;
   display: inline-block;
   /*cssgradient.io*/
-
   text-align: left;
   color: black;
   margin-top: 70px;
@@ -299,41 +332,38 @@ body {
   border-radius: 50px;
   box-shadow: -0px 0px 30px darkgrey;
   font-size: 20px;
-
   font-family: 'Montserrat', sans-serif;
 }
-#submit{
+
+#submit {
   font-size: 25px;
-  font-family:"Lobster";
+  font-family: "Lobster";
   text-align: center;
   display: block;
   border: 0;
   background-image: linear-gradient(green, limegreen);
   color: white;
-  font-weight:bold;
+  font-weight: bold;
   margin-top: 10px;
-  margin-bottom:10px;
+  margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 4px;
   width: 100px;
   height: 30px;
-
-
-
 }
-l>a:link{
+
+l>a:link {
   text-decoration: none;
   color: green;
-
 }
-l>a:visited{
+
+l>a:visited {
   text-decoration: none;
   color: green;
-
 }
-l>a:hover{
+
+l>a:hover {
   text-decoration: none;
   color: orange;
-
 }
