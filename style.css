@@ -29,15 +29,40 @@ body {
   background-size: cover;
 }
 
+.parallaxShorter {
+  height: 45%;
+  background-image: url('images/lc.jpg');
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .parallaxLogo {
   position: sticky;
-  top: 45%;
+  top: 45vh;
   left: 50vw;
   transform: translate(-50%, -50%);
-  max-width: 600px;
-  width: 70vw;
-  height: auto;
-  padding: 30px;
+  min-width: 20vw;
+  min-height: 15vw;
+  max-width: 40vw;
+  max-height: 30vw;
+  object-fit: contain;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter:         drop-shadow(-5px 5px 5px #222);
+}
+
+.parallaxLogoShorter {
+  position: sticky;
+  top: 40vh;
+  left: 50vw;
+  transform: translate(-50%, -20%);
+  min-width: 25vw;
+  min-height: 15vw;
+  max-width: 25vw;
+  max-height: 30vw;
+  object-fit: contain;
   -webkit-filter: drop-shadow(5px 5px 5px #222);
   filter:         drop-shadow(-5px 5px 5px #222);
 }
@@ -62,7 +87,6 @@ body {
 }
 
 #topLeftImage:hover {
-
 	animation: colorRotate 3s linear infinite;
 }
 	@keyframes colorRotate {
@@ -149,14 +173,6 @@ body {
   transform: translate(0%, -50%);
 
 }
-#logoFull{
-	max-width: 600px;
-	width: 70vw;
-	height: auto;
-	padding: 30px;
-	-webkit-filter: drop-shadow(5px 5px 5px #222);
-	filter:         drop-shadow(-5px 5px 5px #222);
-}
 
 .card-container {
   display: flex;
@@ -165,7 +181,6 @@ body {
   justify-content: space-around;
   box-shadow: -0px -0px 3px darkgrey;
   padding: 0px;
-  margin: auto;
   background-color: white;
 }
 
@@ -174,16 +189,18 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   margin-top: 2vw;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
   margin-bottom: 5vw;
 }
 
 #mainImage{
   width: 100%;
-  max-height: 300px;
-  min-height: 300px;
-  object-fit: cover;
+  min-width: 20vw;
+  max-width: 40vw;
+  min-height: 15vw;
+  max-height: 15vw;
+  object-fit: contain;
 }
 
 #imageCaption{
@@ -242,10 +259,6 @@ body {
 	color: green;
 }
 
-#textboxlink:hover {
-	color: OrangeRed;
-}
-
 .centered-element {
   position: absolute;
   left: 50%;
@@ -253,6 +266,7 @@ body {
 }
 
 #footerBar{
+  text-decoration: none;
 	position: fixed;
 	bottom: 0px;
 	width: 100vw;
@@ -264,16 +278,17 @@ body {
   height: 35px;
   box-shadow: -0px -0px 3px darkgrey;
   z-index: 99;
+  text-align: center;
+  padding: 1vw;
+  font-family: 'Oswald', sans-serif;
+
 }
 
-#footerFont{
-  	font-size: 30px
-}
 #mainContentSignUp{
   padding: 30px;
   display: inline-block;
   /*cssgradient.io*/
-  
+
   text-align: left;
   color: black;
   margin-top: 70px;
@@ -284,7 +299,7 @@ body {
   border-radius: 50px;
   box-shadow: -0px 0px 30px darkgrey;
   font-size: 20px;
-  
+
   font-family: 'Montserrat', sans-serif;
 }
 #submit{
@@ -303,7 +318,22 @@ body {
   border-radius: 4px;
   width: 100px;
   height: 30px;
-  
 
+
+
+}
+l>a:link{
+  text-decoration: none;
+  color: green;
+
+}
+l>a:visited{
+  text-decoration: none;
+  color: green;
+
+}
+l>a:hover{
+  text-decoration: none;
+  color: orange;
 
 }
