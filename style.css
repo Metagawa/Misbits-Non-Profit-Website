@@ -31,13 +31,14 @@ body {
 
 .parallaxLogo {
   position: sticky;
-  top: 45%;
+  top: 45vh;
   left: 50vw;
   transform: translate(-50%, -50%);
-  max-width: 600px;
-  width: 70vw;
-  height: auto;
-  padding: 30px;
+  min-width: 20vw;
+  min-height: 15vw;
+  max-width: 40vw;
+  max-height: 30vw;
+  object-fit: contain;
   -webkit-filter: drop-shadow(5px 5px 5px #222);
   filter:         drop-shadow(-5px 5px 5px #222);
 }
@@ -149,14 +150,6 @@ body {
   transform: translate(0%, -50%);
 
 }
-#logoFull{
-	max-width: 600px;
-	width: 70vw;
-	height: auto;
-	padding: 30px;
-	-webkit-filter: drop-shadow(5px 5px 5px #222);
-	filter:         drop-shadow(-5px 5px 5px #222);
-}
 
 .card-container {
   display: flex;
@@ -174,16 +167,18 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   margin-top: 2vw;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
   margin-bottom: 5vw;
 }
 
 #mainImage{
   width: 100%;
-  max-height: 300px;
-  min-height: 300px;
-  object-fit: cover;
+  min-width: 20vw;
+  max-width: 40vw;
+  min-height: 15vw;
+  max-height: 15vw;
+  object-fit: contain;
 }
 
 #imageCaption{
@@ -273,7 +268,7 @@ body {
   padding: 30px;
   display: inline-block;
   /*cssgradient.io*/
-  
+
   text-align: left;
   color: black;
   margin-top: 70px;
@@ -284,7 +279,7 @@ body {
   border-radius: 50px;
   box-shadow: -0px 0px 30px darkgrey;
   font-size: 20px;
-  
+
   font-family: 'Montserrat', sans-serif;
 }
 #submit{
@@ -303,7 +298,7 @@ body {
   border-radius: 4px;
   width: 100px;
   height: 30px;
-  
+
 
 
 }
