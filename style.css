@@ -57,7 +57,7 @@ body {
   position: sticky;
   top: 40vh;
   left: 50vw;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -20%);
   min-width: 25vw;
   min-height: 15vw;
   max-width: 25vw;
