@@ -156,7 +156,7 @@ body {
   display: flex;
   background-color: white;
   height: 60px;
-  width: 7vw;
+  width:140px;
   justify-content: space-between;
   /*makes the banner fixed*/
   position: -webkit-sticky;
@@ -178,13 +178,21 @@ body {
     width: 70vw;
 }
 
-.tutorial-big-container {
+.tutorial-master-container {
     box-shadow: -0px -0px 30px black;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  min-height: 100vh;
+  min-height: 40vh;
   padding-bottom: 125px;
+}
+
+.tutorial-big-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 100vh;
+  padding-bottom: 50px;
 }
 
 
