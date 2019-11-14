@@ -1,65 +1,104 @@
 <html>
-	<head>
-		<title>Contact Us</title>
-		<!--add fonts from google fonts-->
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
-		<!--Taken from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
-		<!-- Add icon library -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	</head>
-	<body>
-		<div class="flex-container">
-			<div>
-				<a href = 'index.html'><img src="images\logo-colour.png" id="topLeftImage"></a>
-			</div>
-			<div class="centered-element">
-				<h1 id="heading">Contact us</h1>
-			</div>
-			<div class="socmed-container">
-				<div>
-					<div>
-						<a href="https://www.facebook.com/" class="fa fa-facebook" ></a>
-						<a href="https://twitter.com/home" class="fa fa-twitter" ></a>
-						<a href="https://reddit.com/" class="fa fa-reddit" ></a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="parallaxShorter">
-			<img src="images\logo-full.png" alt="Word Art" class="parallaxLogoShorter">
-		</div>
-		<div id="mainContent">
-			<l>Please contact us for more information.</l>
 
-			<ol>
-				<li><ul>
-					<li>Tom Carey </li>
-					<li>Phone:098 453 7683</li>
-					<li>e-mail: tcarey@lclcmail.ie</li>
-				</ul>	</li>
-				<li><ul>
-						<li>Jim Ryan </li>
-						<li>Phone:098 327 8934</li>
-						<li>e-mail: jryan@lclcmail.ie</li>
-				</ul></li>
-				<li><ul>
-						<li>Ian Rowland</li>
-						<li>Phone: 098 432 6598</li>
-						<li>e-mail: irowland@lclcmail.ie</li>
-				</ul></li>
-				<li><ul>
-						<li>Benjamin Setterfield</li>
-						<li>Phone: 098 698 2376</li>
-						<li>e-mail: bsetterfield@lclcmail.ie</li>
-				</ul></li>
-	  	</ol>
-	</div>
-		<div id="footerBar">
-			<u>
-			<l><a href="signup.html">Click here to signup</a><l>|</l><a href="index.html">Home Page</a><l>|</l><a href="about.html">About us</a><l>|</l><l><a href="contact.html">Contact us</a></l>
-			</u>
-		</div><!--end of footerBar-->
-	</body>
+<head>
+  <title>Contact Us</title>
+  <!--add fonts from google fonts-->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+  <!--Taken from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Adds dropdown script to page-->
+  <script src="js/dropdown.js"></script>
+</head>
+
+<body>
+  <!--Banner flex container-->
+  <div class="flex-container">
+    <!--Beginning of dropdown menu content (Gotten from w3schools and edited by Tom)-->
+    <div class="dropdown-container">
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">&#9776;</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="index.html">Home</a>
+          <a href="about.html">About us</a>
+          <a href="contact.html">Contact us</a>
+          <a href="tutorials.html">Tutorials</a>
+        </div>
+      </div>
+      <!--End of Dropdown menu content, End of dropdown class-->
+
+      <div>
+        <a href="index.html"><img src="images\logo-colour.png" id="topLeftImage"></a>
+      </div>
+    </div>
+    <!--End of dropdown-container-->
+    <div class="centered-element">
+      <h1 id="heading">Contact Us</h1>
+    </div>
+    <!--end of centered-element-->
+
+    <div class="socmed-container">
+      <div>
+        <div>
+          <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+          <a href="https://twitter.com/home" class="fa fa-twitter"></a>
+          <a href="https://reddit.com/" class="fa fa-reddit"></a>
+        </div>
+      </div>
+    </div>
+    <!--end of socmed-container-->
+  </div>
+  <!--end of flex-container-->
+
+  <div class="parallaxShorter">
+    <img src="images\logo-full.png" alt="Word Art" class="parallaxLogoShorter">
+  </div>
+  <div id="mainContent">
+    <l>Please contact us for more information.</l>
+
+    <ol>
+      <li>
+        <ul>
+          <li>Tom Carey </li>
+          <li>Phone:098 453 7683</li>
+          <li>e-mail: tcarey@lclcmail.ie</li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li>Jim Ryan </li>
+          <li>Phone:098 327 8934</li>
+          <li>e-mail: jryan@lclcmail.ie</li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li>Ian Rowland</li>
+          <li>Phone: 098 432 6598</li>
+          <li>e-mail: irowland@lclcmail.ie</li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li>Benjamin Setterfield</li>
+          <li>Phone: 098 698 2376</li>
+          <li>e-mail: bsetterfield@lclcmail.ie</li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+  <div id="footerBar">
+    <u>
+      <l><a href="signup.html">Click here to signup</a>
+        <l>|</l><a href="index.html">Home Page</a>
+        <l>|</l><a href="about.html">About us</a>
+        <l>|</l>
+        <l><a href="contact.html">Contact us</a></l>
+    </u>
+  </div>
+  <!--end of footerBar-->
+</body>
+
 </html>
