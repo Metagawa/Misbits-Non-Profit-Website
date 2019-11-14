@@ -36,8 +36,9 @@ body {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px;
+  min-width: 100px;
   overflow: auto;
+  font-family: 'Oswald', sans-serif;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -125,6 +126,7 @@ body {
   height: auto;
   margin: 12px;
   margin-left: 15px;
+  align-self: flex-start !important;
 }
 
 #topLeftImage:hover {
@@ -139,10 +141,10 @@ body {
 
 .flex-container {
   display: flex;
-  justify-content: space-between;
   background-color: white;
   height: 60px;
   width: 100vw;
+  justify-content: space-between;
   /*makes the banner fixed*/
   position: -webkit-sticky;
   position: fixed;
@@ -150,7 +152,17 @@ body {
   box-shadow: -0px -0px 3px darkgrey;
   z-index: 99;
 }
-
+.dropdown-container {
+  display: flex;
+  background-color: white;
+  height: 60px;
+  width: 7vw;
+  justify-content: space-between;
+  /*makes the banner fixed*/
+  position: -webkit-sticky;
+  top: 0px;
+  z-index: 99;
+}
 .socmed-container {
   margin: 4px;
   margin-right: 24px;
@@ -370,15 +382,16 @@ overflow: auto;
 }
 
 #footerBar {
-  position: fixed;
+  position: relative;
   bottom: 0px;
   width: 100vw;
+  height: 250px;
   font-size: 20px;
   color: darkgreen;
   display: flex;
   justify-content: space-around;
   background-color: white;
-  height: 35px;
+
   box-shadow: -0px -0px 3px darkgrey;
   z-index: 99;
   text-align: center;
