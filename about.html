@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <html>
-<!--Bank of Ireland Innovation Centre Google Map location API-->
-<!--Ascii LCLC for top of each page-->
-<!--Our names commented at the top of each page-->
+<!--
+'##::::::::'######::'##::::::::'######::
+ ##:::::::'##... ##: ##:::::::'##... ##:
+ ##::::::: ##:::..:: ##::::::: ##:::..::
+ ##::::::: ##::::::: ##::::::: ##:::::::
+ ##::::::: ##::::::: ##::::::: ##:::::::
+ ##::::::: ##::: ##: ##::::::: ##::: ##:
+ ########:. ######:: ########:. ######::
+........:::......:::........:::......:::
+Project team: Tom Carey, Jim Ryan, Benjamin Setterfield, Ian Rowland  -->
+
 <head>
   <title>About us</title>
   <!--add fonts from google fonts-->
@@ -27,7 +35,7 @@
         <button onclick="myFunction()" class="dropbtn">&#9776;</button>
         <div id="myDropdown" class="dropdown-content">
           <a href="index.html">Home</a>
-          <a href="signup.html">sign up!</a>
+          <a href="signup.html">Sign up!</a>
           <a href="about.html">About us</a>
           <a href="contact.html">Contact us</a>
           <a href="tutorials.html">Tutorials</a>
@@ -60,20 +68,23 @@
   <!--end of flex-container-->
 
   <!--enables parallax scrolling over the background-->
-  <div class="parallax">
-    <img id="logoFull" src="images\logo-full.png" alt="Word Art" class="parallaxLogo">
+  <div class="parallaxShorter">
+    <img id="logoFull" src="images\logo-full.png" alt="Word Art" class="parallaxLogoShorter">
   </div>
 
-  <div id="falseCenter">
+  <div id="flex-container-about">
     <div id="mainContentAbout">
-      <l>We are a group of University of Limerick students who have a passion for coding and want to pass our knowledge on to kids who share our passion for computers for free!</l>
-      <l>As a "Not for profit" group, we can only do so much with what we have, computers are expensive so if you have any old ones or anything you would <u><a id="textboxlink" href="donate.html">like to contribute to our cause!</a></u>
+      <p>We are a group of University of Limerick students who have a passion for coding and want to pass our knowledge on to kids who share our passion for computers for free!
+        As a "Not for profit" group, we can only do so much with what we have, computers are expensive so if you have any old ones or anything you would <u><a id="textboxlink" href="donate.html">like to contribute to our cause!</a></u> We're located
+        centrally in Limerick City at the <u><a id="textboxlink" href="https://www.limerick.ie/business/how-we-help/business-supports/bank-ireland-workbench">Bank Of Ireland Workbench</a></u></p>
     </div>
-    <div style="width: 100%">
-      <iframe width="100%" height="600"
-        src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=52.6634243, -8.6274282&amp;q=125%20O'Connell%20Street%2C%20Limerick%2C%20V94%20NC82+(Limerick%20Coding%20Learning%20Center)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed"
-        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/coordinates.html">find my location</a></iframe>
-    </div><br />
+    <!--Google Maps Iframe-->
+    <div id="centerediframe">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d19359.187728364563!2d-8.6412853!3d52.6618115!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b5c668a51ff75%3A0x6b3ea492861f735a!2sBank%20of%20Ireland!5e0!3m2!1sen!2sie!4v1573776304970!5m2!1sen!2sie"
+        width="100%" height="500px" frameborder="0" style="border:0;" allowfullscreen="">
+      </iframe>
+    </div>
   </div>
   <div id="footerBar">
   </div>
