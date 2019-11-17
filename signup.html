@@ -12,90 +12,93 @@
 Project team: Tom Carey, Jim Ryan, Benjamin Setterfield, Ian Rowland  -->
 
 <head>
-  <title>Sign Up!</title>
-  <!--add fonts from google fonts-->
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <!--Taken from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
-  <!-- Add icon library -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!--Adds dropdown script to page-->
-  <script src="js/dropdown.js"></script>
+    <title>Sign Up!</title>
+    <!--add fonts from google fonts-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <!--Taken from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Adds easter egg script-->
+    <script src="js/toasty.js"></script>
+    <!--Adds dropdown script to page-->
+    <script src="js/dropdown.js"></script>
 </head>
 
 <body>
-  <!--Banner flex container-->
-  <div class="flex-container">
-    <!--Beginning of dropdown menu content (Gotten from w3schools and edited by Tom)-->
-    <div class="dropdown-container">
-      <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn">&#9776;</button>
-        <div id="myDropdown" class="dropdown-content">
-          <a href="index.html">Home</a>
-          <a href="signup.html">Sign up!</a>
-          <a href="about.html">About us</a>
-          <a href="contact.html">Contact us</a>
-          <a href="tutorials.html">Tutorials</a>
-          <a href="donate.html">Donate</a>
+    <!--Banner flex container-->
+    <div class="flex-container">
+        <!--Beginning of dropdown menu content (Gotten from w3schools and edited by Tom)-->
+        <div class="dropdown-container">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">&#9776;</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="signup.html">Sign up!</a>
+                    <a href="about.html">About us</a>
+                    <a href="contact.html">Contact us</a>
+                    <a href="tutorials.html">Tutorials</a>
+                    <a href="donate.html">Donate</a>
+                </div>
+            </div>
+            <!--End of Dropdown menu content, End of dropdown class-->
+            <div>
+                <a href="index.html"><img src="images\logo-colour.png" id="topLeftImage"></a>
+            </div>
         </div>
-      </div>
-      <!--End of Dropdown menu content, End of dropdown class-->
-
-      <div>
-        <a href="index.html"><img src="images\logo-colour.png" id="topLeftImage"></a>
-      </div>
-    </div>
-    <!--End of dropdown-container-->
-    <div class="centered-element">
-      <h1 id="heading">About Us</h1>
-    </div>
-    <!--end of centered-element-->
-
-    <div class="socmed-container">
-      <div>
-        <div>
-          <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
-          <a href="https://twitter.com/home" class="fa fa-twitter"></a>
-          <a href="https://reddit.com/" class="fa fa-reddit"></a>
+        <!--End of dropdown-container-->
+        <div class="centered-element">
+            <h1 id="heading">Sign Up</h1>
         </div>
-      </div>
+        <!--end of centered-element-->
+        <div class="socmed-container">
+            <div>
+                <div>
+                    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                    <a href="https://twitter.com/home" class="fa fa-twitter"></a>
+                    <a href="https://reddit.com/" class="fa fa-reddit"></a>
+                </div>
+            </div>
+        </div>
+        <!--end of socmed-container-->
     </div>
-    <!--end of socmed-container-->
-  </div>
-  <!--end of flex-container-->
-  <div id="mainContentSignUp">
-    <form id="signUpForm">
-      <label for="name" id="name-label">Name</label>
-      <input type="text" id="name" required placeholder="Your Name"><br>
-      <label for="email" id="email-label">Email</label>
-      <input type="email" id="email" required placeholder="Your Email address"><br>
-      <label for="number" id="number-label">Age</label>
-      <input type="number" id="number" placeholder="Your age" min="12" max="99"><br>
-      <label for="dropdown" id="number-label">Which best describes you?</label><br>
-      <select id="dropdown">
-        <option value="student">2nd level student</option>
-        <option value="mentor">Mentor</option>
-        <option value="volunteer">Volunteer</option>
-        <option value="parent">Parent</option>
-      </select><br>
-      <label for="radiobuttons" id="radio-label">How much have you coded before?</label><br>
-      <input type="radio" name="experience" value="lot">A lot!!<br>
-      <input type="radio" name="experience" value="small">A small bit<br>
-      <input type="radio" name="experience" value="none">none<br>
-      <label for="radiobuttons" id="radio-label">What technologies are you interested in?</label><br>
-      <input type="checkbox" name="thing1" value="webdev"> Web dev<br>
-      <input type="checkbox" name="thing2" value="appdev"> App dev<br>
-      <input type="checkbox" name="thing3" value="gamedev" checked>Game dev<br>
-      <label for="commentbox" id="comment-label">Any comments?</label><br>
-      <textarea id="commentbox" rows="3" cols="40">Your comment...</textarea><br>
-      <button type="submit" id="submit">Submit</button>
-    </form>
-  </div>
-  <div id="footerBar">
-  </div>
-  <!--end of footerBar-->
+    <!--end of flex-container-->
+    <!--enables parallax scrolling over the background-->
+    <div class="parallaxShorter">
+        <img id="logoFull" src="images\logo-full.png" alt="Word Art" class="parallaxLogoShorter">
+    </div>
+    <div id="mainContentSignUp">
+        <form id="signUpForm">
+            <label for="name" id="name-label">Name</label>
+            <input type="text" id="name" required placeholder="Your Name"><br>
+            <label for="email" id="email-label">Email</label>
+            <input type="email" id="email" required placeholder="Your Email address"><br>
+            <label for="number" id="number-label">Age</label>
+            <input type="number" id="number" placeholder="Your age" min="12" max="99"><br>
+            <label for="dropdown" id="number-label">Which best describes you?</label><br>
+            <select id="dropdown">
+                <option value="student">2nd level student</option>
+                <option value="mentor">Mentor</option>
+                <option value="volunteer">Volunteer</option>
+                <option value="parent">Parent</option>
+            </select><br>
+            <label for="radiobuttons" id="radio-label">How much have you coded before?</label><br>
+            <input type="radio" name="experience" value="lot">A lot!!<br>
+            <input type="radio" name="experience" value="small">A small bit<br>
+            <input type="radio" name="experience" value="none">none<br>
+            <label for="radiobuttons" id="radio-label">What technologies are you interested in?</label><br>
+            <input type="checkbox" name="thing1" value="webdev"> Web dev<br>
+            <input type="checkbox" name="thing2" value="appdev"> App dev<br>
+            <input type="checkbox" name="thing3" value="gamedev" checked>Game dev<br>
+            <label for="commentbox" id="comment-label">Any comments?</label><br>
+            <textarea id="commentbox" rows="3" cols="40">Your comment...</textarea><br>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
+    <div id="footerBar">
+    </div>
+    <!--end of footerBar-->
 </body>
 
 </html>
