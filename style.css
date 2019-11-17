@@ -1,480 +1,524 @@
 html {
-  overflow-x: visible;
-  margin-right: calc(-1 * (100vw - 100%));
-  height: 100%;
+    overflow-x: visible;
+    margin-right: calc(-1 * (100vw - 100%));
+    height: 100%;
 }
 
 body {
-  margin: 0px;
-  padding: 0px;
-  background-color: #f5f5f5;
-  overflow-x: hidden;
-  height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+    height: 100%;
 }
 
 /*Dropdown menu code sourced from w3schools, edited by Tom*/
 .dropbtn {
-  background-color: darkgreen;
-  color: white;
-  height: 100%;
-  width: 150%;
-  font-size: 32px;
-  border: none;
-  cursor: pointer;
+    background-color: darkgreen;
+    color: white;
+    height: 100%;
+    width: 150%;
+    font-size: 32px;
+    border: none;
+    cursor: pointer;
 }
 
-.dropbtn:hover, .dropbtn:focus {
-  opacity: 0.7;
+.dropbtn:hover,
+.dropbtn:focus {
+    opacity: 0.7;
 }
 
 .dropdown {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 100px;
-  overflow: auto;
-  font-family: 'Oswald', sans-serif;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    overflow: auto;
+    font-family: 'Oswald', sans-serif;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
 
 .dropdown a:hover {
-  background-color: #ddd;
+    background-color: #ddd;
 }
 
 .show {
-  display: block;
+    display: block;
 }
 
 /*End of Dropdown content*/
 #centerediframe {
-  margin-top: 80px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 80px;
-  box-shadow: -0px -0px 10px darkgrey;
-  padding: 15px;
-  width: 65vw;
-  max-width: 1700px;
-  border-radius: 10px;
-  box-shadow: -0px 0px 15px darkgrey;
-  font-size: 18px
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    box-shadow: -0px -0px 10px darkgrey;
+    padding: 15px;
+    width: 65vw;
+    max-width: 1700px;
+    border-radius: 10px;
+    box-shadow: -0px 0px 15px darkgrey;
+    font-size: 18px
 }
 
 #centeredLeftAlign {
-  text-align: left;
-  display: inline-block
+    text-align: left;
+    display: inline-block
 }
 
 .parallax {
-  height: 80%;
-  background-image: url('images/lc.jpg');
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    height: 80%;
+    background-image: url('images/lc.jpg');
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .parallaxShorter {
-  height: 45%;
-  background-image: url('images/lc.jpg');
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    height: 45%;
+    background-image: url('images/lc.jpg');
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .parallaxLogo {
-  position: sticky;
-  top: 45vh;
-  left: 50vw;
-  transform: translate(-50%, -50%);
-  min-width: 20vw;
-  min-height: 15vw;
-  max-width: 40vw;
-  max-height: 30vw;
-  object-fit: contain;
-  -webkit-filter: drop-shadow(5px 5px 5px #222);
-  filter: drop-shadow(-5px 5px 5px #222);
+    position: sticky;
+    top: 45vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    min-width: 20vw;
+    min-height: 15vw;
+    max-width: 40vw;
+    max-height: 30vw;
+    object-fit: contain;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(-5px 5px 5px #222);
 }
 
 .parallaxLogoShorter {
-  position: sticky;
-  top: 40vh;
-  left: 50vw;
-  transform: translate(-50%, -20%);
-  min-width: 25vw;
-  min-height: 15vw;
-  max-width: 25vw;
-  max-height: 30vw;
-  object-fit: contain;
-  -webkit-filter: drop-shadow(5px 5px 5px #222);
-  filter: drop-shadow(-5px 5px 5px #222);
+    position: sticky;
+    top: 40vh;
+    left: 50vw;
+    transform: translate(-50%, -20%);
+    min-width: 25vw;
+    min-height: 15vw;
+    max-width: 25vw;
+    max-height: 30vw;
+    object-fit: contain;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(-5px 5px 5px #222);
 }
 
 #heading {
-  text-align: center;
-  font-family: 'Lobster', cursive;
-  font-size: auto;
-  color: green;
-  font-size: auto;
-  position: fixed;
-  left: 50%;
-  top: 5px;
-  transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: auto;
+    color: green;
+    font-size: auto;
+    position: fixed;
+    left: 50%;
+    top: 5px;
+    transform: translate(-50%, -50%);
 }
 
 #topLeftImage {
-  width: 45px;
-  height: auto;
-  margin: 12px;
-  margin-left: 15px;
-  align-self: flex-start !important;
+    width: 45px;
+    height: auto;
+    margin: 12px;
+    margin-left: 15px;
+    align-self: flex-start !important;
 }
 
 #topLeftImage:hover {
-  animation: colorRotate 3s linear infinite;
+    animation: colorRotate 3s linear infinite;
 }
 
 @keyframes colorRotate {
-  100% {
-    -webkit-filter: hue-rotate(360deg);
-  }
+    100% {
+        -webkit-filter: hue-rotate(360deg);
+    }
 }
 
 .flex-container {
-  display: flex;
-  background-color: white;
-  height: 60px;
-  width: 100vw;
-  justify-content: space-between;
-  /*makes the banner fixed*/
-  position: -webkit-sticky;
-  position: fixed;
-  top: 0px;
-  box-shadow: -0px -0px 3px darkgrey;
-  z-index: 99;
+    display: flex;
+    background-color: white;
+    height: 60px;
+    width: 100vw;
+    justify-content: space-between;
+    /*makes the banner fixed*/
+    position: -webkit-sticky;
+    position: fixed;
+    top: 0px;
+    box-shadow: -0px -0px 3px darkgrey;
+    z-index: 99;
 }
 
 .flex-container-about {
-  display: flex;
-  flex-direction: row;
-  background-color: white;
-  height: 60px;
-  width: 100vw;
-  justify-content: space-around;
-  padding: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 60px;
+    width: 100vw;
+    justify-content: space-around;
+    padding: 50px;
 }
 
 .dropdown-container {
-  display: flex;
-  background-color: white;
-  height: 60px;
-  width: 140px;
-  justify-content: space-between;
-  /*makes the banner fixed*/
-  position: -webkit-sticky;
-  top: 0px;
-  z-index: 99;
+    display: flex;
+    background-color: white;
+    height: 60px;
+    width: 140px;
+    justify-content: space-between;
+    /*makes the banner fixed*/
+    position: -webkit-sticky;
+    top: 0px;
+    z-index: 99;
 }
 
 .socmed-container {
-  margin: 4px;
-  margin-right: 24px;
-  padding: 4px;
+    margin: 4px;
+    margin-right: 24px;
+    padding: 4px;
 }
 
 .tutorial-flex-container {
-  display: flex;
-  justify-content: space-around;
-  border-radius: 25px;
-  box-shadow: -0px -0px 15px darkgrey;
-  height: 40vh;
-  width: 70vw;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 25px;
+    box-shadow: -0px -0px 15px darkgrey;
+    height: 40vh;
+    width: 70vw;
 }
 
 .tutorial-master-container {
-  box-shadow: -0px -0px 30px black;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  min-height: 40vh;
-  padding-bottom: 125px;
+    box-shadow: -0px -0px 30px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 40vh;
+    padding-bottom: 125px;
 }
 
 .tutorial-big-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  min-height: 100vh;
-  padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 100vh;
+    padding-bottom: 50px;
 }
 
 /*Taken and altered from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
 /* Style all font awesome icons */
 .fa {
-  padding: 10px;
-  width: 20px;
-  text-align: center;
-  text-decoration: none;
-  background: green;
-  margin: 2px;
-  box-shadow: -1px 2px 5px grey;
+    padding: 10px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    background: green;
+    margin: 2px;
+    box-shadow: -1px 2px 5px grey;
 }
 
 .fa:hover {
-  opacity: 0.7;
-  color: white;
+    opacity: 0.7;
+    color: white;
 }
 
 /* Sets a specific color for each brand */
 /* Facebook */
 .fa-facebook {
-  color: white;
+    color: white;
 }
 
 /* Twitter */
 .fa-twitter {
-  color: white;
+    color: white;
 }
 
 /* Reddit */
 .fa-reddit {
-  color: white;
+    color: white;
 }
 
 #trueCenter {
-  /*Centers whatever has this id in the true center of the page*/
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    /*Centers whatever has this id in the true center of the page*/
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .card-container {
-  display: flex;
-  width: 100vw;
-  align-items: center;
-  justify-content: space-around;
-  box-shadow: -0px -0px 3px darkgrey;
-  padding: 0px;
-  background-color: white;
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: -0px -0px 3px darkgrey;
+    padding: 0px;
+    background-color: white;
 }
 
 #cardBlock {
-  width: 70%;
-  max-height: 500px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;
-  margin-top: 2vw;
-  margin-left: 1vw;
-  margin-right: 1vw;
-  margin-bottom: 5vw;
+    width: 70%;
+    max-height: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-top: 2vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 5vw;
 }
 
 #mainImage {
-  width: 100%;
-  min-width: 20vw;
-  max-width: 40vw;
-  min-height: 15vw;
-  max-height: 15vw;
-  object-fit: contain;
+    width: 100%;
+    min-width: 20vw;
+    max-width: 40vw;
+    min-height: 15vw;
+    max-height: 15vw;
+    object-fit: contain;
 }
 
 #mainImageTutorial {
-  width: 50%;
-  height: 100%;
-  margin-right: 20px;
-  border-radius: 25px 0 0 25px;
-  object-fit: cover;
+    width: 50%;
+    height: 100%;
+    margin-right: 20px;
+    border-radius: 25px 0 0 25px;
+    object-fit: cover;
 }
 
 #mainImageTutorialRight {
-  width: 50%;
-  height: 100%;
-  border-radius: 0 25px 25px 0;
-  margin-left: 20px;
-  object-fit: cover;
+    width: 50%;
+    height: 100%;
+    border-radius: 0 25px 25px 0;
+    margin-left: 20px;
+    object-fit: cover;
 }
 
 #tutorialText {
-  margin: 50px;
-  /*watch you're not missing an error with overflow*/
-  overflow: auto;
+    margin: 50px;
+    /*watch you're not missing an error with overflow*/
+    overflow: auto;
 }
 
 #imageCaption {
-  font-family: 'Oswald', sans-serif;
-  color: green;
-  padding-bottom: 10px;
-  font-size: 100%;
-  height: auto;
-  min-height: 100%;
+    font-family: 'Oswald', sans-serif;
+    color: green;
+    padding-bottom: 10px;
+    font-size: 100%;
+    height: auto;
+    min-height: 100%;
 }
 
 #mainContent {
-  padding: 30px;
-  display: grid;
-  background: #f5f5f5;
-  text-align: center;
-  color: black;
-  width: 55vw;
-  max-width: 1700px;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50px;
-  font-family: 'Oswald', sans-serif;
-  border-radius: 50px;
-  box-shadow: -0px 0px 30px darkgrey;
-  font-size: 20px;
+    padding: 30px;
+    display: grid;
+    background: #f5f5f5;
+    text-align: center;
+    color: black;
+    width: 55vw;
+    max-width: 1700px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 50px;
+    box-shadow: -0px 0px 30px darkgrey;
+    font-size: 20px;
 }
 
 #mainContentShadowless {
-  /*used in tutorial page*/
-  padding-top: 35px;
-  display: grid;
-  background: #f5f5f5;
-  text-align: center;
-  color: black;
-  width: auto;
-  max-width: 1700px;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: 'Oswald', sans-serif;
-  border-radius: 50px;
-  font-size: 20px;
+    /*used in tutorial page*/
+    padding-top: 35px;
+    display: grid;
+    background: #f5f5f5;
+    text-align: center;
+    color: black;
+    width: auto;
+    max-width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 50px;
+    font-size: 20px;
 }
 
 #mainContentTutorial {
-  margin-top: 50px;
-  display: flex;
-  background: #f5f5f5;
-  text-align: left;
-  color: black;
-  width: 65vw;
-  max-width: 1700px;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: 'Oswald', sans-serif;
-  border-radius: 50px;
-  font-size: 100%;
+    margin-top: 50px;
+    display: flex;
+    background: #f5f5f5;
+    text-align: left;
+    color: black;
+    width: 65vw;
+    max-width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 50px;
+    font-size: 100%;
 }
 
 #mainContentAbout {
-  padding: 30px;
-  display: grid;
-  background: #f5f5f5;
-  text-align: center;
-  color: black;
-  width: 65vw;
-  max-width: 1700px;
-  margin-top: 70px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
-  font-family: 'Oswald', sans-serif;
-  border-radius: 80px;
-  box-shadow: -0px 0px 15px darkgrey;
-  font-size: 18px
+    padding: 30px;
+    display: grid;
+    background: #f5f5f5;
+    text-align: center;
+    color: black;
+    width: 65vw;
+    max-width: 1700px;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 80px;
+    box-shadow: -0px 0px 15px darkgrey;
+    font-size: 18px
 }
 
 #videoBlock {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-top: 2vw;
-  margin-bottom: 5vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 2vw;
+    margin-bottom: 5vw;
 }
 
 #textboxlink {
-  text-decoration: none;
-  text-align: center;
-  font-family: 'Oswald', sans-serif;
-  color: green;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: green;
 }
 
 .centered-element {
-  position: absolute;
-  left: 50%;
-  margin-left: -75px;
+    position: absolute;
+    left: 50%;
+    margin-left: -75px;
 }
 
 #footerBar {
-  position: relative;
-  bottom: 0px;
-  width: 100vw;
-  height: 250px;
-  font-size: 20px;
-  color: darkgreen;
-  display: flex;
-  justify-content: space-around;
-  background-color: white;
-  box-shadow: -0px -0px 3px darkgrey;
-  z-index: 99;
-  text-align: center;
-  padding: 0.5vh;
-  font-family: 'Oswald', sans-serif;
+    position: relative;
+    bottom: 0px;
+    width: 100vw;
+    height: 250px;
+    font-size: 20px;
+    color: darkgreen;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: -0px -0px 3px darkgrey;
+    z-index: 99;
+    text-align: center;
+    padding: 0.5vh;
+    font-family: 'Oswald', sans-serif;
 }
 
 #mainContentSignUp {
-  padding: 30px;
-  display: inline-block;
-  /*cssgradient.io*/
-  text-align: left;
-  color: black;
-  margin-top: 70px;
-  margin-left: 40%;
-  margin-right: auto;
-  margin-bottom: 50px;
-  font-family: 'Oswald', sans-serif;
-  border-radius: 50px;
-  box-shadow: -0px 0px 30px darkgrey;
-  font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
+    padding: 30px;
+    display: inline-block;
+    /*cssgradient.io*/
+    text-align: left;
+    color: black;
+    margin-top: 70px;
+    margin-left: 40%;
+    margin-right: auto;
+    margin-bottom: 50px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 50px;
+    box-shadow: -0px 0px 30px darkgrey;
+    font-size: 20px;
 }
 
 #submit {
-  font-size: 25px;
-  font-family: "Lobster";
-  text-align: center;
-  display: block;
-  border: 0;
-  background-image: linear-gradient(green, limegreen);
-  color: white;
-  font-weight: bold;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 4px;
-  width: 100px;
-  height: 30px;
+    font-size: 25px;
+    font-family: "Lobster";
+    text-align: center;
+    display: block;
+    border: 0;
+    background-image: linear-gradient(green, limegreen);
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    width: 100px;
+    height: 30px;
 }
 
 l>a:link {
-  text-decoration: none;
-  color: green;
+    text-decoration: none;
+    color: green;
 }
 
 l>a:visited {
-  text-decoration: none;
-  color: green;
+    text-decoration: none;
+    color: green;
 }
 
 l>a:hover {
-  text-decoration: none;
-  color: orange;
+    text-decoration: none;
+    color: orange;
+}
+
+.signUpLargeBtns {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: "Lobster", cursive;
+    width: 100vw;
+    height: 60vh;
+    background-color: mediumseagreen;
+}
+
+.signUpText {
+    color: #EEE;
+    font-size: 70px;
+    margin-bottom: 25px;
+}
+
+.signUpBtnContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.signUpBtn>a {
+    text-decoration: none;
+    color: peru;
+}
+
+.signUpBlock {
+    width: 100vw;
+    height: 60vh;
+    background-color: grey;
+}
+
+.parentSingup.signUpBlock {
+    background-color: #9653c0;
+}
+
+.mentorSingup.signUpBlock {
+    background-color: #bc6e7f;
 }

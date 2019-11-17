@@ -12,106 +12,99 @@
 Project team: Tom Carey, Jim Ryan, Benjamin Setterfield, Ian Rowland  -->
 
 <head>
-  <title>Limerick Coding Learning Centre</title>
-  <!--add fonts from google fonts-->
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
-  <!--Taken from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
-  <!-- Add icon library -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--Adds dropdown script to page-->
-  <script src="js/dropdown.js"></script>
+    <title>Limerick Coding Learning Centre</title>
+    <!--add fonts from google fonts-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <!--Taken from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Adds dropdown script to page-->
+    <script src="js/dropdown.js"></script>
 </head>
 
 <body>
-  <!--Banner flex container-->
-  <div class="flex-container">
-    <!--Beginning of dropdown menu content (Gotten from w3schools and edited by Tom)-->
-    <div class="dropdown-container">
-      <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn">&#9776;</button>
-        <div id="myDropdown" class="dropdown-content">
-          <a href="index.html">Home</a>
-          <a href="signup.html">Sign up!</a>
-          <a href="about.html">About us</a>
-          <a href="contact.html">Contact us</a>
-          <a href="tutorials.html">Tutorials</a>
-          <a href="donate.html">Donate</a>
+    <!--Banner flex container-->
+    <div class="flex-container">
+        <!--Beginning of dropdown menu content (Gotten from w3schools and edited by Tom)-->
+        <div class="dropdown-container">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">&#9776;</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="signup.html">Sign up!</a>
+                    <a href="about.html">About us</a>
+                    <a href="contact.html">Contact us</a>
+                    <a href="tutorials.html">Tutorials</a>
+                    <a href="donate.html">Donate</a>
+                </div>
+            </div>
+            <!--End of Dropdown menu content, End of dropdown class-->
+            <div>
+                <a href="index.html"><img src="images\logo-colour.png" id="topLeftImage"></a>
+            </div>
         </div>
-      </div>
-      <!--End of Dropdown menu content, End of dropdown class-->
-
-      <div>
-        <a href="index.html"><img src="images\logo-colour.png" id="topLeftImage"></a>
-      </div>
-    </div>
-    <!--End of dropdown-container-->
-    <div class="centered-element">
-      <h1 id="heading">About Us</h1>
-    </div>
-    <!--end of centered-element-->
-
-    <div class="socmed-container">
-      <div>
-        <div>
-          <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
-          <a href="https://twitter.com/home" class="fa fa-twitter"></a>
-          <a href="https://reddit.com/" class="fa fa-reddit"></a>
+        <!--End of dropdown-container-->
+        <div class="centered-element">
+            <h1 id="heading">Limerick Coding Learning Centre</h1>
         </div>
-      </div>
+        <!--end of centered-element-->
+        <div class="socmed-container">
+            <div>
+                <div>
+                    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                    <a href="https://twitter.com/home" class="fa fa-twitter"></a>
+                    <a href="https://reddit.com/" class="fa fa-reddit"></a>
+                </div>
+            </div>
+        </div>
+        <!--end of socmed-container-->
     </div>
-    <!--end of socmed-container-->
-  </div>
-  <!--end of flex-container-->
-
-  <!--enables parallax scrolling over the background-->
-  <div class="parallax">
-    <img src="images\logo-full.png" alt="Word Art" class="parallaxLogo">
-  </div>
-
-  <div id="mainContent">
-    <h2>Information for Parents</h2>
-    <h3>Our Aims and Goals:</h3>
-    <!--Changes the bulletpoints to left align, then centers the block-->
-    <div style="text-align: center;">
-      <ul id="centeredLeftAlign">
-        <li>To provide children with an understanding of modern development practices.</li>
-        <li>To provide them with the tools they need to grow and learn in the tech field.</li>
-        <li>To guide them to a career path in software development.</li>
-      </ul>
+    <!--end of flex-container-->
+    <!--enables parallax scrolling over the background-->
+    <div class="parallax">
+        <img src="images\logo-full.png" alt="Word Art" class="parallaxLogo">
     </div>
-    <!--end of centered block-->
-    <h2>Our available courses, more coming soon!</h2>
-    <h3>Java Programming Summer Course: ages 12-16</h3>
-    <l>An award winning 8 week summer course that covers Java Programming from the very basics.</l>
-    <l>It starts with a quick 2 week refresher course that introduces the children to using computers and the concepts behind coding.</l>
-    <h3>Python Programming Summer Course:</h3>
-  </div>
-  <!--end of mainContent-->
-
-  <div class="card-container">
-    <div id="cardBlock">
-      <!--could take a picture of us in front of the main building for this picture instead of just a logo-->
-      <img id="mainImage" src="images/UL.png" alt="students coding" class="center">
-      <p id="imageCaption">University of Limerick students volunteer to share their skills.</p>
+    <div id="mainContent">
+        <h2>Information for Parents</h2>
+        <h3>Our Aims and Goals:</h3>
+        <!--Changes the bulletpoints to left align, then centers the block-->
+        <div style="text-align: center;">
+            <ul id="centeredLeftAlign">
+                <li>To provide children with an understanding of modern development practices.</li>
+                <li>To provide them with the tools they need to grow and learn in the tech field.</li>
+                <li>To guide them to a career path in software development.</li>
+            </ul>
+        </div>
+        <!--end of centered block-->
+        <h2>Our available courses, more coming soon!</h2>
+        <h3>Java Programming Summer Course: ages 12-16</h3>
+        <l>An award winning 8 week summer course that covers Java Programming from the very basics.</l>
+        <l>It starts with a quick 2 week refresher course that introduces the children to using computers and the concepts behind coding.</l>
+        <h3>Python Programming Summer Course:</h3>
     </div>
-    <div id="cardBlock">
-      <img id="mainImage" src="images\kids-coding.jpg" alt="students coding" class="center">
-      <p id="imageCaption">Various courses are available to teach kids coding skills.</p>
+    <!--end of mainContent-->
+    <div class="card-container">
+        <div id="cardBlock">
+            <!--could take a picture of us in front of the main building for this picture instead of just a logo-->
+            <img id="mainImage" src="images/UL.png" alt="students coding" class="center">
+            <p id="imageCaption">University of Limerick students volunteer to share their skills.</p>
+        </div>
+        <div id="cardBlock">
+            <img id="mainImage" src="images\kids-coding.jpg" alt="students coding" class="center">
+            <p id="imageCaption">Various courses are available to teach kids coding skills.</p>
+        </div>
+        <div id="cardBlock">
+            <img id="mainImage" src="images\students.jpeg" alt="students coding" class="center">
+            <p id="imageCaption">Fantastic future employment opportunities in many different fields.</p>
+        </div>
     </div>
-    <div id="cardBlock">
-      <img id="mainImage" src="images\students.jpeg" alt="students coding" class="center">
-      <p id="imageCaption">Fantastic future employment opportunities in many different fields.</p>
+    <!--end of card-container-->
+    <div id="footerBar">
     </div>
-  </div>
-  <!--end of card-container-->
-
-  <div id="footerBar">
-  </div>
-  <!--end of footerBar-->
-
+    <!--end of footerBar-->
 </body>
 
 </html>
