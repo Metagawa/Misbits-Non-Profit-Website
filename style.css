@@ -60,10 +60,10 @@ body {
 
 /*End of Dropdown content*/
 #centerediframe {
-  margin-top: 80px;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
   box-shadow: -0px -0px 10px darkgrey;
   padding: 15px;
   width: 65vw;
@@ -376,19 +376,18 @@ body {
 }
 
 #mainContentAbout {
-  padding: 30px;
+  padding: 15px;
   display: grid;
   background: #f5f5f5;
   text-align: center;
   color: black;
   width: 65vw;
   max-width: 1700px;
-  margin-top: 70px;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 30px;
   font-family: 'Oswald', sans-serif;
-  border-radius: 80px;
+  border-radius: 10px;
   box-shadow: -0px 0px 15px darkgrey;
   font-size: 18px
 }
