@@ -663,6 +663,7 @@ input {
   cursor: pointer;
 }
 
+/*Media Query For Tablets*/
 @media only screen and (max-width: 800px) {
   #heading {
     font-size: 20px;
@@ -672,7 +673,7 @@ input {
     flex-direction: column;
   }
 }
-
+/*Media Query For Mobile*/
 @media only screen and (max-width: 550px) {
   #heading {
     font-size: 13px;
