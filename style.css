@@ -660,10 +660,18 @@ input {
     #heading {
         font-size: 20px;
     }
+
+    .card-container {
+        flex-direction: column;
+    }
 }
 
 @media only screen and (max-width: 550px) {
     #heading {
         font-size: 13px;
+    }
+
+    .card-container {
+        flex-direction: column;
     }
 }
