@@ -4,6 +4,8 @@ html {
     height: 100%;
 }
 
+
+
 body {
     margin: 0px;
     padding: 0px;
@@ -652,4 +654,16 @@ input {
     font-size: 25px;
     cursor: pointer;
 
+}
+
+@media only screen and (max-width: 800px) {
+    #heading {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    #heading {
+        font-size: 13px;
+    }
 }
