@@ -188,13 +188,12 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     height: 10vw;
     width: 60vw;
-    justify-content: space-around;
     margin-bottom: 20vh;
     margin-left: auto;
     margin-right: auto;
-    padding: 5vh;
 }
 
 .dropdown-container {
@@ -331,6 +330,13 @@ a {
     object-fit: cover;
 }
 
+#mainImageAbout {
+  text-align: center;
+    width: 100%;
+
+    object-fit: contain;
+}
+
 #tutorialText {
     margin: 50px;
     /*watch you're not missing an error with overflow*/
@@ -411,11 +417,18 @@ a {
     font-size: 18px
 }
 
+.maincontentAboutText {
+    text-align: center;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px
+}
+
 #mainContentContact {
     background: #f5f5f5;
     text-align: left;
     color: black;
-    width: 40%;
+    width: 42.53%;
     margin: 1.2%;
     font-family: 'Oswald', sans-serif;
     border-radius: 10px;
