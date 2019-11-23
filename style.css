@@ -420,7 +420,8 @@ a {
   text-align: center;
   color: black;
   font-family: 'Oswald', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  padding: 0.5vw;
 }
 
 #mainContentContact {
