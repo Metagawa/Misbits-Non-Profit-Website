@@ -41,11 +41,9 @@ document.addEventListener('keydown', function(e) {
 });
 
 function makeToast() {
-  document.body.style.background = "no-repeat bottom right";
+  document.body.style.background = "bottom right";
   document.body.style.backgroundImage = "url('images/toasty.png')";
-  document.body.style.backgroundSize = "500px 500px";
-  document.body.style.backgroundAttachment = "fixed";
-
+  document.body.style.backgroundSize = "50px 50px";
 
   var audio = new Audio('audio/toasty.mp3');
   audio.play();
