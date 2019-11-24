@@ -12,165 +12,150 @@
 Project team: Tom Carey, Jim Ryan, Benjamin Setterfield, Ian Rowland  -->
 
 <head>
-  <title>Sign Up!</title>
-  <!--add fonts from google fonts-->
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato|Lobster|Merriweather&display=swap" rel="stylesheet">
-  <!--Taken from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
-  <!-- Add icon library -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!--Adds easter egg script-->
-  <script src="js/toasty.js"></script>
-  <!--Adds dropdown script to page-->
-  <script src="js/dropdown.js"></script>
-  <link rel="shortcut icon" type="image/png" href="favicon.ico" />
+    <title>Sign Up!</title>
+    <!--add fonts from google fonts-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Lobster|Merriweather&display=swap" rel="stylesheet">
+    <!--Taken from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Adds easter egg script-->
+    <script src="js/toasty.js"></script>
+    <!--Adds dropdown script to page-->
+    <script src="js/dropdown.js"></script>
+    <link rel="shortcut icon" type="image/png" href="favicon.ico" />
 </head>
 
 <body>
-  <!--Banner flex container-->
-  <div class="flex-container">
-    <!--Beginning of dropdown menu content (Gotten from w3schools and edited by Tom)-->
-    <div class="dropdown-container">
-      <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn">&#9776;</button>
-        <div id="myDropdown" class="dropdown-content">
-          <a href="index.html">Home</a>
-          <a href="signup.html">Sign up!</a>
-          <a href="about.html">About us</a>
-          <a href="contact.html">Contact us</a>
-          <a href="tutorials.html">Tutorials</a>
+    <!--Banner flex container-->
+    <div class="flex-container">
+        <!--Beginning of dropdown menu content (Gotten from w3schools and edited by Tom)-->
+        <div class="dropdown-container">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">&#9776;</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="signup.html">Sign up!</a>
+                    <a href="about.html">About us</a>
+                    <a href="contact.html">Contact us</a>
+                    <a href="tutorials.html">Tutorials</a>
+                </div>
+            </div>
+            <!--End of Dropdown menu content, End of dropdown class-->
+            <div>
+                <a href="index.html"><img src="images\logo-colour.png" id="topLeftImage"></a>
+            </div>
         </div>
-      </div>
-      <!--End of Dropdown menu content, End of dropdown class-->
-      <div>
-        <a href="index.html"><img src="images\logo-colour.png" id="topLeftImage"></a>
-      </div>
-    </div>
-    <!--End of dropdown-container-->
-    <div class="centered-element">
-      <h1 id="heading">Sign Up</h1>
-    </div>
-    <!--end of centered-element-->
-    <div class="socmed-container">
-      <div>
-        <div>
-          <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
-          <a href="https://twitter.com/home" class="fa fa-twitter"></a>
-          <a href="https://reddit.com/" class="fa fa-reddit"></a>
+        <!--End of dropdown-container-->
+        <div class="centered-element">
+            <h1 id="heading">Sign Up</h1>
         </div>
-      </div>
+        <!--end of centered-element-->
+        <div class="socmed-container">
+            <div>
+                <div>
+                    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                    <a href="https://twitter.com/home" class="fa fa-twitter"></a>
+                    <a href="https://reddit.com/" class="fa fa-reddit"></a>
+                </div>
+            </div>
+        </div>
+        <!--end of socmed-container-->
     </div>
-    <!--end of socmed-container-->
-  </div>
-  <!--end of flex-container-->
-  <!--enables parallax scrolling over the background-->
-  <div class="parallaxShorter">
-    <img id="logoFull" src="images\logo-full.png" alt="Word Art" class="parallaxLogoShorter">
-  </div>
-  <div class="signUpLargeBtns">
-    <div class="signUpText">I am a...</div>
-    <div class="signUpBtnContainer">
-      <div class="signUpBtn"><a href="#jumpToParentSignUp"><button type="button" class="bigbtn">Parent</button></a></div>
-      <div class="signUpBtn"><a href="#jumpToMentorSignUp"><button type="button" class="bigbtn">Mentor</button></a></div>
-      <div class="signUpBtn"><a href="#jumpToStudentSignUp"><button type="button" class="bigbtn">Student</button></a></div>
+    <!--end of flex-container-->
+    <!--enables parallax scrolling over the background-->
+    <div class="parallaxShorter">
+        <img id="logoFull" src="images\logo-full.png" alt="Word Art" class="parallaxLogoShorter">
     </div>
-  </div>
-  <div class="parentSingup signUpBlock" id="jumpToParentSignUp">
-    <div class="parentBanner banner">
-      <h2 class="bannerHeading">Newsletter for parents</h2>
-      <p>Parents are invited to receive our newsletter and to join the parent committee. For the latest LCLC news please join our weekly newspaper</p>
+    <div class="signUpLargeBtns">
+        <div class="signUpText">I am a...</div>
+        <div class="signUpBtnContainer">
+            <div class="signUpBtn"><a href="#jumpToParentSignUp"><button type="button" class="bigbtn">Parent</button></a></div>
+            <div class="signUpBtn"><a href="#jumpToMentorSignUp"><button type="button" class="bigbtn">Mentor</button></a></div>
+            <div class="signUpBtn"><a href="#jumpToStudentSignUp"><button type="button" class="bigbtn">Student</button></a></div>
+        </div>
     </div>
-    <div class="parentForm form">
-      <label for="name" class="name-label">Name</label>
-      <input type="text" class="name" required placeholder="Your Name"><br>
-      <label for="email" class="email-label">Email</label>
-      <input type="email" class="email" required placeholder="Your Email"><br>
-      <button type="submit" class="submitEmail">Submit</button>
+    <div class="parentSingup signUpBlock" id="jumpToParentSignUp">
+        <div class="parentBanner banner">
+            <h2 class="bannerHeading">Newsletter for parents</h2>
+            <p class="signUpWords">Parents are invited to receive our newsletter and to join the parent committee. For the latest LCLC news please join our weekly newspaper</p>
+        </div>
+        <div class="parentForm form">
+            <label for="name" class="name-label">Name</label>
+            <input type="text" class="name" required placeholder="Your Name"><br>
+            <label for="email" class="email-label">Email</label>
+            <input type="email" class="email" required placeholder="Your Email"><br>
+            <button type="submit" class="submitEmail">Submit</button>
+        </div>
     </div>
-  </div>
-  <div class="mentorSingup signUpBlock" id="jumpToMentorSignUp">
-    <div class="mentorBanner banner">
-      <h2 class="bannerHeading">Mentors</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, dolorum consequuntur nobis quas error, odit nam qui explicabo ducimus mollitia voluptatum molestias incidunt culpa animi eius ipsa eaque deserunt? Facilis.</p>
+    <div class="mentorSingup signUpBlock" id="jumpToMentorSignUp">
+        <div class="mentorBanner banner">
+            <h2 class="bannerHeading">Mentors</h2>
+            <p class="signUpWords">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, dolorum consequuntur nobis quas error, odit nam qui explicabo ducimus mollitia voluptatum molestias incidunt culpa animi eius ipsa eaque deserunt? Facilis.</p>
+        </div>
+        <div class="mentorForm form">
+            <label for="name" class="name-label">Name</label>
+            <input type="text" class="name" required placeholder="Your Name"><br>
+            <label for="email" class="email-label">Email</label>
+            <input type="email" class="email" required placeholder="Your Email"><br>
+            <label for="radiobuttons" id="radio-label">How much have you coded before?</label><br>
+            <div class="formAlign">
+                <input type="radio" name="experience" value="lot">A lot!!<br>
+                <input type="radio" name="experience" value="small">A small bit<br>
+                <input type="radio" name="experience" value="none">none<br>
+            </div>
+            <button type="submit" class="submitEmail">Submit</button>
+        </div>
     </div>
-    <div class="mentorForm form">
-      <label for="name" class="name-label">Name</label>
-      <input type="text" class="name" required placeholder="Your Name"><br>
-      <label for="email" class="email-label">Email</label>
-      <input type="email" class="email" required placeholder="Your Email"><br>
-      <button type="submit" class="submitEmail">Submit</button>
+    <div class="studentSingup signUpBlock" id="jumpToStudentSignUp">
+        <div class="studentBanner banner">
+            <h2 class="bannerHeading">Students</h2>
+            <p class="signUpWords">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, dolorum consequuntur nobis quas error, odit nam qui explicabo ducimus mollitia voluptatum molestias incidunt culpa animi eius ipsa eaque deserunt? Facilis.</p>
+        </div>
+        <div class="studentForm form">
+            <label for="name" class="name-label">Name</label>
+            <input type="text" class="name" required placeholder="Your Name"><br>
+            <label for="email" class="email-label">Email</label>
+            <input type="email" class="email" required placeholder="Your Email"><br>
+            <label for="radiobuttons" id="radio-label">What technologies are you interested in?</label><br>
+            <div class="formAlign">
+                <input type="checkbox" name="thing1" value="webdev"> Web dev<br>
+                <input type="checkbox" name="thing2" value="appdev"> App dev<br>
+                <input type="checkbox" name="thing3" value="gamedev" checked>Game dev<br>
+            </div>
+            <button type="submit" class="submitEmail">Submit</button>
+        </div>
     </div>
-  </div>
-  <div class="studentSingup signUpBlock" id="jumpToStudentSignUp">
-    <div class="studentBanner banner">
-      <h2 class="bannerHeading">Students</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, dolorum consequuntur nobis quas error, odit nam qui explicabo ducimus mollitia voluptatum molestias incidunt culpa animi eius ipsa eaque deserunt? Facilis.</p>
     </div>
-    <div class="studentForm form">
-      <label for="name" class="name-label">Name</label>
-      <input type="text" class="name" required placeholder="Your Name"><br>
-      <label for="email" class="email-label">Email</label>
-      <input type="email" class="email" required placeholder="Your Email"><br>
-      <button type="submit" class="submitEmail">Submit</button>
+    <div id="footerBar-Container">
+        <!--Start of Footerbar content-->
+        <div id="footerBar">
+            <div>
+                <ul>
+                    <h2>Navigation</h2><br>
+                    <a href="index.html">Home</u></a><br>
+                    <a href="signup.html">Sign up!</u></a><br>
+                    <a href="about.html">About us</u></a><br>
+                    <a href="contact.html">Contact us</u></a><br>
+                    <a href="tutorials.html">Tutorials</u></a><br>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <h2>Useful Links</h2><br>
+                    <a href="https://ninite.com/">Ninite</a><br>
+                    <a href="https://www.w3schools.com/">W3schools</a><br>
+                    <a href="https://education.github.com/pack">Github Student</a><br>
+                    <a href="https://www.quackit.com/html/html_color_codes.cfm/">HTML Color Codes</a><br>
+                    <a href="https://learntocodewith.me/posts/code-for-free/">Even more resources</a><br>
+                </ul>
+            </div>
+        </div>
+        <div id="footerBar" style="align-self: center;">
+        </div>
     </div>
-  </div>
-  <div id="mainContentSignUp">
-    <form id="signUpForm">
-      <label for="name" id="name-label">Name</label>
-      <input type="text" id="name" required placeholder="Your Name"><br>
-      <label for="email" id="email-label">Email</label>
-      <input type="email" id="email" required placeholder="Your Email address"><br>
-      <label for="number" id="number-label">Age</label>
-      <input type="number" id="number" placeholder="Your age" min="12" max="99"><br>
-      <label for="dropdown" id="number-label">Which best describes you?</label><br>
-      <select id="dropdown">
-        <option value="student">2nd level student</option>
-        <option value="mentor">Mentor</option>
-        <option value="volunteer">Volunteer</option>
-        <option value="parent">Parent</option>
-      </select><br>
-      <label for="radiobuttons" id="radio-label">How much have you coded before?</label><br>
-      <input type="radio" name="experience" value="lot">A lot!!<br>
-      <input type="radio" name="experience" value="small">A small bit<br>
-      <input type="radio" name="experience" value="none">none<br>
-      <label for="radiobuttons" id="radio-label">What technologies are you interested in?</label><br>
-      <input type="checkbox" name="thing1" value="webdev"> Web dev<br>
-      <input type="checkbox" name="thing2" value="appdev"> App dev<br>
-      <input type="checkbox" name="thing3" value="gamedev" checked>Game dev<br>
-      <label for="commentbox" id="comment-label">Any comments?</label><br>
-      <textarea id="commentbox" rows="3" cols="40">Your comment...</textarea><br>
-      <button type="submit" id="submit">Submit</button>
-    </form>
-  </div>
-  <div id="footerBar-Container">
-    <!--Start of Footerbar content-->
-    <div id="footerBar">
-      <div>
-        <ul>
-          <h2>Navigation</h2><br>
-          <a href="index.html">Home</u></a><br>
-          <a href="signup.html">Sign up!</u></a><br>
-          <a href="about.html">About us</u></a><br>
-          <a href="contact.html">Contact us</u></a><br>
-          <a href="tutorials.html">Tutorials</u></a><br>
-        </ul>
-      </div>
-      <div>
-        <ul>
-          <h2>Useful Links</h2><br>
-          <a href="https://ninite.com/">Ninite</a><br>
-          <a href="https://www.w3schools.com/">W3schools</a><br>
-          <a href="https://education.github.com/pack">Github Student</a><br>
-          <a href="https://www.quackit.com/html/html_color_codes.cfm/">HTML Color Codes</a><br>
-          <a href="https://learntocodewith.me/posts/code-for-free/">Even more resources</a><br>
-        </ul>
-      </div>
-    </div>
-    <div id="footerBar" style="align-self: center;">
-    </div>
-  </div>
-  <!--end of FooterBar-->
+    <!--end of FooterBar-->
 </body>
 
 </html>
