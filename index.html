@@ -12,138 +12,140 @@
 Project team: Tom Carey, Jim Ryan, Benjamin Setterfield, Ian Rowland  -->
 
 <head>
-    <title>Limerick Coding Learning Centre</title>
-    <!--add fonts from google fonts-->
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Lobster|Merriweather&display=swap" rel="stylesheet">
-    <!--Taken from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
-    <!-- Add icon library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Adds dropdown script to page-->
-    <script src="js/dropdown.js"></script>
-    <link rel="shortcut icon" type="image/png" href="favicon.ico" />
+  <title>Limerick Coding Learning Centre</title>
+  <!--add fonts from google fonts-->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Lobster|Merriweather&display=swap" rel="stylesheet">
+  <!--Taken from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Adds dropdown script to page-->
+  <script src="js/dropdown.js"></script>
+  <link rel="shortcut icon" type="image/png" href="favicon.ico" />
 </head>
 
 <body>
-    <!--Banner flex container-->
-    <div class="flex-container">
-        <!--Beginning of dropdown menu content (Gotten from w3schools and edited by Tom)-->
-        <div class="dropdown-container">
-            <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">&#9776;</button>
-                <div id="myDropdown" class="dropdown-content">
-                    <a href="index.html">Home</u></a>
-                    <a href="signup.html">Sign up!</u></a>
-                    <a href="about.html">About us</u></a>
-                    <a href="contact.html">Contact us</u></a>
-                    <a href="tutorials.html">Tutorials</u></a>
-                </div>
-            </div>
-            <!--End of Dropdown menu content, End of dropdown class-->
-            <div>
-                <a href="index.html"><img src="images\logo-colour.png" id="topLeftImage"></u></a>
-            </div>
+  <!--Banner flex container-->
+  <div class="flex-container">
+    <!--Beginning of dropdown menu content (Gotten from w3schools and edited by Tom)-->
+    <div class="dropdown-container">
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">&#9776;</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="index.html">Home</u></a>
+          <a href="signup.html">Sign up!</u></a>
+          <a href="about.html">About us</u></a>
+          <a href="contact.html">Contact us</u></a>
+          <a href="tutorials.html">Tutorials</u></a>
         </div>
-        <!--End of dropdown-container-->
-        <h1 id="heading">Home Page</h1>
-        <!--end of centered-element-->
-        <div class="socmed-container">
-            <a href="https://www.facebook.com/" class="fa fa-facebook"></u></a>
-            <a href="https://twitter.com/home" class="fa fa-twitter"></u></a>
-            <a href="https://reddit.com/" class="fa fa-reddit"></u></a>
-        </div>
-        <!--end of socmed-container-->
+      </div>
+      <!--End of Dropdown menu content, End of dropdown class-->
+      <div>
+        <a href="index.html"><img src="images\logo-colour.png" id="topLeftImage"></u></a>
+      </div>
     </div>
-    <!--end of flex-container-->
-    <!--enables parallax scrolling over the background-->
-    <div class="parallaxShorter">
-        <img src="images\logo-full.png" alt="Word Art" class="parallaxLogoShorter">
+    <!--End of dropdown-container-->
+    <h1 id="heading">Home Page</h1>
+    <!--end of centered-element-->
+    <div class="socmed-container">
+      <a href="https://www.facebook.com/" class="fa fa-facebook"></u></a>
+      <a href="https://twitter.com/home" class="fa fa-twitter"></u></a>
+      <a href="https://reddit.com/" class="fa fa-reddit"></u></a>
     </div>
-    <div id="mainContent">
-        <h1 style="padding-bottom: 20px;">Information for Parents</h1>
-        <h3 style="padding: 2px; margin: 5px;">Our Aims and Goals:</h3>
-        <!--Changes the bulletpoints to left align, then centers the block-->
-        <div style="text-align: center; font-family: 'Lato', sans-serif;">
-            <ul id="centeredLeftAlign">
-                <li>To provide children with an understanding of modern development practices.</li>
-                <li>To provide them with the tools they need to grow and learn in the tech field.</li>
-                <li style="padding-bottom: 35px;">To guide them to a career path in software development.</li>
-            </ul>
-        </div>
-        <!--end of centered block-->
-        <h2 style="padding-bottom: 20px;">Our available courses, more coming soon!</h2>
-        <div style="text-align: center; font-family: 'Lato', sans-serif;">
-            <l>These courses run at all times of the year. Simply <a href="signup.html"><u>sign up</u></a> at any time and your child will be added to the start of the next course!</l>
-            <l>Much of our material draws from the fantastic <a href="https://www.w3schools.com/"><u>w3schools.com</u></a> and we highly recommend checking this out if your child can't attend our courses for any reason.</l>
-        </div>
-        <h4>HTML and CSS: 6 weeks</h4>
-        <div style="text-align: center; font-family: 'Lato', sans-serif;">
-            <l>This course covers all you need to know about making a website just like the one you're viewing <a id="textboxlink" href="https://github.com/TomC17/Misbits-Non-Profit-Website"><u>right now</u></a>.</l>
-            <l>The aim of this course is to get the children to make their own website about whatever they want.</l>
-            <l>We tend to get them started by making a wiki page for their favourite tv show or character first and build from there.</l>
-        </div>
-        <h4>Java Programming Summer Course: 8 weeks</h4>
-        <div style="text-align: center; font-family: 'Lato', sans-serif;">
-            <l>An award winning 8 week summer course that covers Java Programming from the very basics.</l>
-            <l>It starts with a quick 2 week refresher course that introduces the children to using computers and the concepts behind coding.</l>
-        </div>
-        <h4>Python Programming Game Dev Summer Course: 10 weeks</h4>
-        <div style="text-align: center; font-family: 'Lato', sans-serif;">
-            <l>This course is run in partnership with <a href="https://www.renpy.org/"><u>renpy.org</u></a> to teach kids two things.
-                The first is basic coding in Python, the second is how to make a basic game in the renpy engine.
-                The development of the game will be considered the project for this course.
-                It involves breaking the class into groups and having each write their own story and implementing it in each group's game.</l>
-        </div>
+    <!--end of socmed-container-->
+  </div>
+  <!--end of flex-container-->
+  <!--enables parallax scrolling over the background-->
+  <div class="parallaxShorter">
+    <img src="images\logo-full.png" alt="Word Art" class="parallaxLogoShorter">
+  </div>
+  <div id="mainContent">
+    <h1 style="padding-bottom: 20px;">Information for Parents</h1>
+    <h3 style="padding: 2px; margin: 5px;">Our Aims and Goals:</h3>
+    <!--Changes the bulletpoints to left align, then centers the block-->
+    <div style="text-align: center; font-family: 'Lato', sans-serif;">
+      <ul id="centeredLeftAlign">
+        <li>To provide children with an understanding of modern development practices.</li>
+        <li>To provide them with the tools they need to grow and learn in the tech field.</li>
+        <li style="padding-bottom: 35px;">To guide them to a career path in software development.</li>
+      </ul>
     </div>
-    <!--end of mainContent-->
-    <div class="card-container">
-        <div id="cardBlock">
-            <!--could take a picture of us in front of the main building for this picture instead of just a logo-->
-            <a href="https://www.ul.ie/"> <img id="mainImage" src="images/UL.png" alt="UL Logo" class="center">
-                <p id="imageCaption">University of Limerick students volunteer to share their skills.</p></u>
-            </a>
-        </div>
-        <div id="cardBlock">
-            <a href="tutorials.html"><img id="mainImage" src="images\kids-coding.jpg" alt="Students Working" class="center">
-                <p id="imageCaption">Various courses are available to teach coding skills in various languages.</p></u>
-            </a>
-        </div>
-        <div id="cardBlock">
-            <a href="https://www.irishjobs.ie/Junior-Coding-Jobs"><img id="mainImage" src="images\job.jpg" alt="Office Work" class="center">
-                <p id="imageCaption">Fantastic future employment opportunities in many different fields.</p></u>
-            </a>
-        </div>
+    <!--end of centered block-->
+    <h2 style="padding-bottom: 20px;">Our available courses, more coming soon!</h2>
+    <div style="text-align: center; font-family: 'Lato', sans-serif;">
+      <l>These courses run at all times of the year. Simply <a href="signup.html"><u>sign up</u></a> at any time and your child will be added to the start of the next course.</l>
+      <l>Much of the material used draws from the fantastic <a href="https://www.w3schools.com/"><u>w3schools.com</u></a> and is highly recommended by our team. The resources found there should be used to let your child learn for themselves if they
+        cannot attend our sessions.</l>
     </div>
-    <!--end of card-container-->
-    <div id="footerBar-Container">
-        <!--Start of Footerbar content-->
-        <div id="footerBar">
-            <div>
-                <ul>
-                    <h2>Navigation</h2><br>
-                    <a href="index.html">Home</u></a><br>
-                    <a href="signup.html">Sign up!</u></a><br>
-                    <a href="about.html">About us</u></a><br>
-                    <a href="contact.html">Contact us</u></a><br>
-                    <a href="tutorials.html">Tutorials</u></a><br>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <h2>Useful Links</h2><br>
-                    <a href="https://ninite.com/">Ninite</a><br>
-                    <a href="https://www.w3schools.com/">W3schools</a><br>
-                    <a href="https://education.github.com/pack">Github Student</a><br>
-                    <a href="https://www.quackit.com/html/html_color_codes.cfm/">HTML Color Codes</a><br>
-                    <a href="https://learntocodewith.me/posts/code-for-free/">Even more resources</a><br>
-                </ul>
-            </div>
-        </div>
-        <div id="footerBar" style="align-self: center;">
-        </div>
+    <h4>HTML and CSS: 6 weeks</h4>
+    <div style="text-align: center; font-family: 'Lato', sans-serif;">
+      <l>This course covers all your child needs to know about making a website similar to the one you're viewing <a id="textboxlink" href="https://github.com/TomC17/Misbits-Non-Profit-Website"><u>right now</u></a>.</l>
+      <l>The aim of this course is to get your children to make their own website.</l>
+      <l>The course starts with having them make a simple "About me" page first and progresses to more complex web development.</l>
     </div>
-    <!--end of FooterBar-->
+    <h4>Java Programming Summer Course: 8 weeks</h4>
+    <div style="text-align: center; font-family: 'Lato', sans-serif;">
+      <l>An award winning 8 week summer course that covers Java Programming from the very basics.</l>
+      <l>This course is a great place for your child to start more serious coding. This course covers making actual programs like digital clocks for example. There is a project at the end of this course which encourages your child to find information
+        and resources they might need for themselves in order to finish. This promotes good problem solving ability and independent learning.</l>
+    </div>
+    <h4>Python Programming Game Dev Summer Course: 10 weeks</h4>
+    <div style="text-align: center; font-family: 'Lato', sans-serif;">
+      <l>This course is run in partnership with <a href="https://www.renpy.org/"><u>renpy.org</u></a> to teach kids two things in a more relaxed and fun way than our java course.
+        The first is basic coding in Python, the second is how to make a basic visual novel game in the renpy engine.
+        The development of a game will be the project for this course. Your child will get to express themselves fully by making a visual novel with a story of their own creation. This course encourages experimentation and promotes creativity both in
+        storytelling and in coding. This course is highly recommended as a general starting point due to it's more relaxed style.</l>
+    </div>
+  </div>
+  <!--end of mainContent-->
+  <div class="card-container">
+    <div id="cardBlock">
+      <!--could take a picture of us in front of the main building for this picture instead of just a logo-->
+      <a href="https://www.ul.ie/"> <img id="mainImage" src="images/UL.png" alt="UL Logo" class="center">
+        <p id="imageCaption">University of Limerick students volunteer to share their skills.</p></u>
+      </a>
+    </div>
+    <div id="cardBlock">
+      <a href="tutorials.html"><img id="mainImage" src="images\kids-coding.jpg" alt="Students Working" class="center">
+        <p id="imageCaption">Various courses are available to teach coding skills in various languages.</p></u>
+      </a>
+    </div>
+    <div id="cardBlock">
+      <a href="https://www.irishjobs.ie/Junior-Coding-Jobs"><img id="mainImage" src="images\job.jpg" alt="Office Work" class="center">
+        <p id="imageCaption">Fantastic future employment opportunities in many fields.</p></u>
+      </a>
+    </div>
+  </div>
+  <!--end of card-container-->
+  <div id="footerBar-Container">
+    <!--Start of Footerbar content-->
+    <div id="footerBar">
+      <div>
+        <ul>
+          <h2>Navigation</h2><br>
+          <a href="index.html">Home</u></a><br>
+          <a href="signup.html">Sign up!</u></a><br>
+          <a href="about.html">About us</u></a><br>
+          <a href="contact.html">Contact us</u></a><br>
+          <a href="tutorials.html">Tutorials</u></a><br>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <h2>Useful Links</h2><br>
+          <a href="https://ninite.com/">Ninite</a><br>
+          <a href="https://www.w3schools.com/">W3schools</a><br>
+          <a href="https://education.github.com/pack">Github Student</a><br>
+          <a href="https://www.quackit.com/html/html_color_codes.cfm/">HTML Color Codes</a><br>
+          <a href="https://learntocodewith.me/posts/code-for-free/">Even more resources</a><br>
+        </ul>
+      </div>
+    </div>
+    <div id="footerBar" style="align-self: center;">
+    </div>
+  </div>
+  <!--end of FooterBar-->
 </body>
 
 </html>
