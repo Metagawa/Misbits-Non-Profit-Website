@@ -713,6 +713,10 @@ input {
     width: 90%;
     height: auto;
   }
+  input{
+    padding: 4px 16px;
+    margin: 2px;
+  }
 
   .tutorial-big-container {
     flex-direction: column;
@@ -805,10 +809,12 @@ input {
 
   .signUpBlock {
     flex-direction: column;
+    height: 80vh;
+    overflow: auto;
+
   }
 
-  .banner {
-    width: 80vw;
+  .banner.media {
     flex-grow: 1;
   }
 
@@ -845,7 +851,6 @@ input {
     height: 50%;
     max-height: 100%;
   }
-
   #topLeftImage {
     visibility: hidden;
   }
@@ -909,11 +914,13 @@ input {
     font-size: 20px;
   }
 
-  .signUpBlock {
+  .signUpBlock{
     flex-direction: column;
+    overflow: auto;
   }
 
-  .banner {
+
+  .banner.media {
     width: 80vw;
     flex-grow: 1;
   }
