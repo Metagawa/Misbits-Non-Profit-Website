@@ -1,1110 +1,1106 @@
 html {
-  overflow-x: visible;
-  margin: 0;
-  height: 100%;
+    overflow-x: visible;
+    margin: 0;
+    height: 100%;
 }
 
 body {
-  margin: 0px;
-  padding: 0px;
-  background-color: #f5f5f5;
-  overflow-x: hidden;
-  height: 100%;
-  width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 ul {
-  margin-left: 20px;
-  padding-left: 0;
-  padding-right: 20px;
+    margin-left: 20px;
+    padding-left: 0;
+    padding-right: 20px;
 }
 
 h2 {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 audio {
-  border-radius 10px;
+    border-radius 10px;
 }
 
 .paddingbottom20 {
-  padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .paddingbottom40 {
-  padding-bottom: 40px;
+    padding-bottom: 40px;
 }
 
 .padding2margin5 {
-  padding: 2px;
-  margin: 5px;
+    padding: 2px;
+    margin: 5px;
 }
 
 .latofont {
-  font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .paddingLatoAbout {
-  padding: 20px;
+    padding: 20px;
 }
 
 /*Dropdown menu code sourced from w3schools, edited by Tom*/
 .dropbtn {
-  background: white;
-  color: darkgrey;
-  height: 100%;
-  width: 150%;
-  font-size: 32px;
-  border: none;
-  cursor: pointer;
+    background: white;
+    color: darkgrey;
+    height: 100%;
+    width: 150%;
+    font-size: 32px;
+    border: none;
+    cursor: pointer;
 }
 
 .dropbtn:hover,
 .dropbtn:focus {
-  opacity: 0.7;
+    opacity: 0.7;
 }
 
 .dropdown {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 100px;
-  overflow: auto;
-  font-family: 'Merriweather', serif;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  border-radius: 0 0 10px 0;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    overflow: auto;
+    font-family: 'Merriweather', serif;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 0 0 10px 0;
 }
 
 audio {
-  -webkit-filter: drop-shadow(0px 0px 2px #222);
-  filter: drop-shadow(0px 0px 3px grey);
-  border-radius: 100px;
-  text-align: center;
-  margin-left: 5px;
-  margin-top: 5px;
+    -webkit-filter: drop-shadow(0px 0px 2px #222);
+    filter: drop-shadow(0px 0px 3px grey);
+    border-radius: 100px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 5px;
-  text-decoration: none;
-  display: block;
+    color: black;
+    padding: 12px 5px;
+    text-decoration: none;
+    display: block;
 }
 
 .dropdown a:hover {
-  background-color: #ddd;
+    background-color: #ddd;
 }
 
 .show {
-  display: block;
+    display: block;
 }
 
 /*End of Dropdown content*/
 #centerediframe {
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50px;
-  box-shadow: -0px -0px 10px darkgrey;
-  padding: 15px;
-  width: 65vw;
-  max-width: 1700px;
-  border-radius: 10px;
-  box-shadow: -0px 0px 15px darkgrey;
-  font-size: 18px
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    box-shadow: -0px -0px 10px darkgrey;
+    padding: 15px;
+    width: 65vw;
+    max-width: 1700px;
+    border-radius: 10px;
+    box-shadow: -0px 0px 15px darkgrey;
+    font-size: 18px
 }
 
 #centeredLeftAlign {
-  text-align: left;
-  display: inline-block
+    text-align: left;
+    display: inline-block
 }
 
 .parallaxShorter {
-  height: 40vw;
-  max-height: 35%;
-  width: 100%;
-  background-image: url('images/lc.jpg');
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    height: 40vw;
+    max-height: 35%;
+    width: 100%;
+    background-image: url('images/lc.jpg');
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .parallaxLogoShorter {
-  position: sticky;
-  padding-top: auto;
-  top: 20vw;
-  left: 50vw;
-  width: 40vw;
-  height: 56%;
-  object-fit: scale-down;
-  transform: translate(-50%, -20%);
-  -webkit-filter: drop-shadow(5px 5px 5px #222);
-  filter: drop-shadow(-5px 5px 5px #222);
+    position: sticky;
+    padding-top: auto;
+    top: 20vw;
+    left: 50vw;
+    width: 40vw;
+    height: 56%;
+    object-fit: scale-down;
+    transform: translate(-50%, -20%);
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(-5px 5px 5px #222);
 }
 
 #heading {
-  text-align: center;
-  font-family: 'Lobster', cursive;
-  color: green;
-  padding: 0px;
-  font-size: 35px;
-  position: fixed;
-  left: 50%;
-  top: 5px;
-  transform: translate(-50%, -50%);
-  z-index: 99;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: green;
+    padding: 0px;
+    font-size: 35px;
+    position: fixed;
+    left: 50%;
+    top: 5px;
+    transform: translate(-50%, -50%);
+    z-index: 99;
 }
 
 #topLeftImage {
-  width: 45px;
-  height: auto;
-  margin: 12px;
-  margin-left: 15px;
-  align-self: flex-start;
+    width: 45px;
+    height: auto;
+    margin: 12px;
+    margin-left: 15px;
+    align-self: flex-start;
 }
 
 #topLeftImage:hover {
-  animation: colorRotate 3s linear infinite;
+    animation: colorRotate 3s linear infinite;
 }
 
 /*The animation below is taken from https://codepen.io/lukeandersen/pen/fdpkD */
 @keyframes colorRotate {
-  100% {
-    -webkit-filter: hue-rotate(360deg);
-  }
+    100% {
+        -webkit-filter: hue-rotate(360deg);
+    }
 }
 
 .flex-container {
-  display: flex;
-  background-color: white;
-  vertical-align: middle;
-  height: 60px;
-  width: 100vw;
-  justify-content: space-between;
-  /*makes the banner fixed*/
-  position: -webkit-sticky;
-  position: fixed;
-  top: 0px;
-  box-shadow: -0px -0px 3px darkgrey;
-  z-index: 99;
+    display: flex;
+    background-color: white;
+    vertical-align: middle;
+    height: 60px;
+    width: 100vw;
+    justify-content: space-between;
+    /*makes the banner fixed*/
+    position: -webkit-sticky;
+    position: fixed;
+    top: 0px;
+    box-shadow: -0px -0px 3px darkgrey;
+    z-index: 99;
 }
 
 .flex-container-about {
-  display: flex;
-  flex-direction: row;
-  background-color: white;
-  height: 60px;
-  width: 100vw;
-  justify-content: space-around;
-  padding: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 60px;
+    width: 100vw;
+    justify-content: space-around;
+    padding: 50px;
 }
 
 .flex-container-contact {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  width: 60vw;
-  margin-bottom: 20vh;
-  margin-left: auto;
-  margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 60vw;
+    margin-bottom: 20vh;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .dropdown-container {
-  display: flex;
-  background-color: white;
-  height: 60px;
-  width: 140px;
-  justify-content: space-between;
-  /*makes the banner fixed*/
-  position: -webkit-sticky;
-  top: 0px;
-  z-index: 99;
+    display: flex;
+    background-color: white;
+    height: 60px;
+    width: 140px;
+    justify-content: space-between;
+    /*makes the banner fixed*/
+    position: -webkit-sticky;
+    top: 0px;
+    z-index: 99;
 }
 
 .socmed-container {
-  margin: 4px;
-  margin-right: 24px;
-  padding: 4px;
+    margin: 4px;
+    margin-right: 24px;
+    padding: 4px;
 }
 
 .tutorial-flex-container {
-  display: flex;
-  justify-content: space-around;
-  border-radius: 0px 10px 10px 0px;
-  box-shadow: -0px -0px 15px darkgrey;
-  width: 70vw;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: -0px -0px 15px darkgrey;
+    width: 70vw;
 }
 
 .tutorial-flex-container2 {
-  display: flex;
-  justify-content: space-around;
-  border-radius: 10px 0px 0px 10px;
-  box-shadow: -0px -0px 15px darkgrey;
-  width: 70vw;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: -0px -0px 15px darkgrey;
+    width: 70vw;
 }
 
 .tutorial-master-container {
-  box-shadow: -0px -0px 30px black;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  min-height: 40vh;
+    box-shadow: -0px -0px 30px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 40vh;
 }
 
 .tutorial-big-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  min-height: 100vh;
-  padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 100vh;
+    padding-bottom: 50px;
 }
 
 /*Taken and altered from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
 /* Style all font awesome icons */
 .fa {
-  padding: 10px;
-  width: 20px;
-  text-align: center;
-  text-decoration: none;
-  background: white;
-  font-size: 10px;
-  margin: 2px;
-  box-shadow: 0px 0px 3px grey;
-  border-radius: 2px;
+    padding: 10px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    background: white;
+    font-size: 10px;
+    margin: 2px;
+    box-shadow: 0px 0px 3px grey;
+    border-radius: 2px;
 }
 
 .fa:hover {
-  color: green;
-  opacity: 0.5;
-  box-shadow: 0px 0px 6px green;
+    color: green;
+    opacity: 0.5;
+    box-shadow: 0px 0px 6px green;
 }
 
 /* Sets a specific color for each brand */
 /* Facebook */
 .fa-facebook {
-  color: grey;
+    color: grey;
 }
 
 /* Twitter */
 .fa-twitter {
-  color: grey;
+    color: grey;
 }
 
 /* Reddit */
 .fa-reddit {
-  color: grey;
+    color: grey;
 }
 
 #trueCenter {
-  /*Centers whatever has this id in the true center of the page*/
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    /*Centers whatever has this id in the true center of the page*/
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .card-container {
-  display: flex;
-  width: 100vw;
-  align-items: center;
-  justify-content: space-around;
-  box-shadow: -0px -0px 3px darkgrey;
-  padding: 0px;
-  background-color: white;
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: -0px -0px 3px darkgrey;
+    padding: 0px;
+    background-color: white;
 }
 
 #cardBlock {
-  width: 70%;
-  height: 80%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;
-  margin-top: 2vw;
-  margin-left: 1vw;
-  margin-right: 1vw;
-  margin-bottom: 2vw;
-  border-radius: 10px;
+    width: 70%;
+    height: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-top: 2vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 2vw;
+    border-radius: 10px;
 }
 
 #cardBlock:hover {
-  box-shadow: 0px 0px 6px green;
+    box-shadow: 0px 0px 6px green;
 }
 
 #mainImage {
-  width: 100%;
-  min-width: 20vw;
-  max-width: 40vw;
-  min-height: 15vw;
-  max-height: 15vw;
-  object-fit: contain;
+    width: 100%;
+    min-width: 20vw;
+    max-width: 40vw;
+    min-height: 15vw;
+    max-height: 15vw;
+    object-fit: contain;
 }
 
 #mainImageTutorial {
-  width: 50%;
-  height: 100%;
-  margin-right: 0px;
-  border-radius: 10px 0 0 10px;
-  object-fit: contain;
+    width: 50%;
+    height: 100%;
+    margin-right: 0px;
+    border-radius: 10px 0 0 10px;
+    object-fit: contain;
 }
 
 #mainImageTutorialRight {
-  width: 50%;
-  height: 100%;
-  border-radius: 0 10px 10px 0;
-  margin-left: 0px;
-  object-fit: contain;
+    width: 50%;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    margin-left: 0px;
+    object-fit: contain;
 }
 
 #mainImageAbout {
-  text-align: center;
-  width: 100%;
-  object-fit: contain;
+    text-align: center;
+    width: 100%;
+    object-fit: contain;
 }
 
 #tutorialText {
-  margin: 50px;
-  /*watch you're not missing an error with overflow*/
-  overflow: auto;
+    margin: 50px;
+    /*watch you're not missing an error with overflow*/
+    overflow: auto;
 }
 
 #imageCaption {
-  font-family: 'Merriweather', serif;
-  color: green;
-  padding-bottom: 10px;
-  font-size: 100%;
-  height: auto;
-  min-height: 100%;
+    font-family: 'Merriweather', serif;
+    color: green;
+    padding-bottom: 10px;
+    font-size: 100%;
+    height: auto;
+    min-height: 100%;
 }
 
 #mainContent {
-  padding: 1% 1% 1% 3%;
-  padding-bottom: 3%;
-  display: grid;
-  background: #f5f5f5;
-  text-align: center;
-  color: black;
-  width: 75vw;
-  margin-top: 5vw;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 5vw;
-  font-family: 'Merriweather', serif;
-  border-radius: 10px;
-  box-shadow: -0px 0px 15px darkgrey;
-  font-size: 20px;
+    padding: 1% 1% 1% 3%;
+    padding-bottom: 3%;
+    background: #f5f5f5;
+    text-align: center;
+    color: black;
+    width: 75vw;
+    margin-top: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vw;
+    font-family: 'Merriweather', serif;
+    border-radius: 10px;
+    box-shadow: -0px 0px 15px darkgrey;
+    font-size: 20px;
 }
 
 #donateMain {
-  padding: 1% 1% 1% 3%;
-  padding-bottom: 3%;
-  display: grid;
-  background: #f5f5f5;
-  text-align: center;
-  color: black;
-  width: 75vw;
-  margin-top: 5vw;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 5vw;
-  font-family: 'Merriweather', serif;
-  border-radius: 10px;
-  box-shadow: -0px 0px 15px darkgrey;
-  font-size: 20px;
+    padding: 1% 1% 1% 3%;
+    padding-bottom: 3%;
+    display: grid;
+    background: #f5f5f5;
+    text-align: center;
+    color: black;
+    width: 75vw;
+    margin-top: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vw;
+    font-family: 'Merriweather', serif;
+    border-radius: 10px;
+    box-shadow: -0px 0px 15px darkgrey;
+    font-size: 20px;
 }
 
 #mainContentShadowless {
-  /*used in tutorial page*/
-  padding-top: 35px;
-  display: grid;
-  background: #f5f5f5;
-  text-align: center;
-  color: black;
-  width: auto;
-  max-width: 1700px;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: 'Merriweather', serif;
-  border-radius: 10px;
-  font-size: 20px;
+    /*used in tutorial page*/
+    padding-top: 35px;
+    background: #f5f5f5;
+    text-align: center;
+    color: black;
+    width: auto;
+    max-width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Merriweather', serif;
+    border-radius: 10px;
+    font-size: 20px;
 }
 
 #mainContentTutorial {
-  margin-top: 50px;
-  display: flex;
-  flex-direction: row;
-  background: #f5f5f5;
-  text-align: left;
-  color: black;
-  width: 85vw;
-  max-width: 1700px;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: 'Merriweather', serif;
-  border-radius: 10px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    background: #f5f5f5;
+    text-align: left;
+    color: black;
+    width: 85vw;
+    max-width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Merriweather', serif;
+    border-radius: 10px;
 }
 
 #mainContentAbout {
-  padding: 15px;
-  display: grid;
-  background: #f5f5f5;
-  text-align: center;
-  color: black;
-  width: 65vw;
-  max-width: 1700px;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: 'Merriweather', serif;
-  border-radius: 10px;
-  box-shadow: -0px 0px 15px darkgrey;
-  font-size: 18px
+    padding: 15px;
+    background: #f5f5f5;
+    text-align: center;
+    color: black;
+    width: 65vw;
+    max-width: 1700px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Merriweather', serif;
+    border-radius: 10px;
+    box-shadow: -0px 0px 15px darkgrey;
+    font-size: 18px
 }
 
 .maincontentAboutText {
-  text-align: center;
-  color: black;
-  font-family: 'Merriweather', serif;
-  font-size: 18px;
-  padding: 0.5vw;
+    text-align: center;
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    padding: 0.5vw;
 }
 
 #footerBar-Container.noTopBorder {
-  border-top: none;
+    border-top: none;
 }
 
 #mainContentContact {
-  background: #f5f5f5;
-  text-align: left;
-  color: black;
-  width: 42.53%;
-  margin: 1.2%;
-  font-family: 'Merriweather', serif;
-  border-radius: 10px;
-  box-shadow: -0px 0px 15px darkgrey;
-  font-size: 18px;
-  padding: 10px;
+    background: #f5f5f5;
+    text-align: left;
+    color: black;
+    width: 42.53%;
+    margin: 1.2%;
+    font-family: 'Merriweather', serif;
+    border-radius: 10px;
+    box-shadow: -0px 0px 15px darkgrey;
+    font-size: 18px;
+    padding: 10px;
 }
 
 #headerContact {
-  padding-left: 1vw;
-  padding-right: 1vw;
-  padding-bottom: 1vw;
-  display: grid;
-  background: #f5f5f5;
-  text-align: left;
-  color: black;
-  width: 52.5vw;
-  margin-top: 3vw;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1vw;
-  font-family: 'Merriweather', serif;
-  border-radius: 10px;
-  box-shadow: -0px 0px 15px darkgrey;
-  font-size: 18px
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 1vw;
+    background: #f5f5f5;
+    text-align: left;
+    color: black;
+    width: 52.5vw;
+    margin-top: 3vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1vw;
+    font-family: 'Merriweather', serif;
+    border-radius: 10px;
+    box-shadow: -0px 0px 15px darkgrey;
+    font-size: 18px
 }
 
 #textboxlink {
-  text-decoration: none;
-  text-align: center;
-  font-family: 'Merriweather', serif;
-  color: green;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: green;
 }
 
 .removeBullet {
-  list-style: none;
-  font-weight: bold;
+    list-style: none;
+    font-weight: bold;
 }
 
 .body404 {
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  height: 60vh;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
 }
 
 .returnText {
-  font-family: sans-serif;
-  color: black;
-  font-size: 30px;
+    font-family: sans-serif;
+    color: black;
+    font-size: 30px;
 }
 
 .text404 {
-  text-align: center;
-  font-size: 40px;
-  font-family: 'Lobster', cursive;
-  color: green;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    color: green;
 }
 
 .donateList {
-  display: flex;
-  margin: 15px;
-  flex-direction: column;
-  list-style: none;
-  justify-content: center;
-  align-items: center;
-  font-size: 25px;
-  font-family: sans-serif;
-  line-height: 45px;
-  text-align: left;
+    display: flex;
+    margin: 15px;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    line-height: 45px;
+    text-align: left;
 }
 
 .donateListItem {
-  margin-left: 10%;
-  margin-right: 10%;
-  max-width: 60vw;
-  text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 60vw;
+    text-align: center;
 }
 
 .donateButton {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  background-color: inherit;
-  border-style: none;
-  border-radius: 100px;
-  -webkit-filter: drop-shadow(0px 0px 2px darkgrey);
-  filter: drop-shadow(0px 0px 2px darkgrey);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: inherit;
+    border-style: none;
+    border-radius: 100px;
+    -webkit-filter: drop-shadow(0px 0px 2px darkgrey);
+    filter: drop-shadow(0px 0px 2px darkgrey);
 }
 
 .donateButton:hover {
-  -webkit-filter: drop-shadow(0px 0px 2px #222);
-  filter: drop-shadow(0px 0px 15px orange);
+    -webkit-filter: drop-shadow(0px 0px 2px #222);
+    filter: drop-shadow(0px 0px 15px orange);
 }
 
 .donateOptions {
-  color: #EEE;
-  display: grid;
-  text-align: center;
-  font-size: 40px;
-  font-family: sans-serif;
-  /*gradient made on https://cssgradient.io/*/
-  background: rgb(205, 133, 63);
-  background: linear-gradient(180deg, rgba(205, 133, 63, 1) 0%, rgba(60, 179, 113, 1) 100%);
-  margin: auto
+    color: #EEE;
+    display: grid;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    /*gradient made on https://cssgradient.io/*/
+    background: rgb(205, 133, 63);
+    background: linear-gradient(180deg, rgba(205, 133, 63, 1) 0%, rgba(60, 179, 113, 1) 100%);
+    margin: auto
 }
 
 .topBar {
-  grid-area: 1/1/2/6;
-  color: #EEE;
-  font-size: 2em;
-  text-align: center;
-  font-size: 40px;
-  font-family: "Lobster";
-  padding: 50px;
-  margin: auto
+    grid-area: 1/1/2/6;
+    color: #EEE;
+    font-size: 2em;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Lobster";
+    padding: 50px;
+    margin: auto
 }
 
 .option1 {
-  grid-area: 3/2/4/3;
-  font-size: 50px;
-  background: peru;
-  margin: auto;
-  margin-left: 10px;
-  margin-right: 10px;
-  cursor: pointer;
+    grid-area: 3/2/4/3;
+    font-size: 50px;
+    background: peru;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
 }
 
 .option2 {
-  font-size: 50px;
-  grid-area: 3/4/4/5;
-  background: peru;
-  margin: auto;
-  margin-left: 7px;
-  margin-right: 7px;
-  border-radius: 5px;
-  cursor: pointer;
+    font-size: 50px;
+    grid-area: 3/4/4/5;
+    background: peru;
+    margin: auto;
+    margin-left: 7px;
+    margin-right: 7px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .centered-element {
-  position: absolute;
-  left: 50%;
-  margin-left: -75px;
+    position: absolute;
+    left: 50%;
+    margin-left: -75px;
 }
 
 #footerBar-Container {
-  display: flex;
-  position: relative;
-  bottom: 0px;
-  width: 100vw;
-  border-top: 1px solid darkgrey;
-  font-size: 15px;
-  background-color: MediumSeaGreen;
-  color: white;
-  z-index: 0;
-  font-family: 'Merriweather', serif;
+    display: flex;
+    position: relative;
+    bottom: 0px;
+    width: 100vw;
+    border-top: 1px solid darkgrey;
+    font-size: 15px;
+    background-color: MediumSeaGreen;
+    color: white;
+    z-index: 0;
+    font-family: 'Merriweather', serif;
 }
 
 #footerBar {
-  display: flex;
-  position: relative;
-  bottom: 0px;
-  width: 55vw;
-  background-color: MediumSeaGreen;
-  color: white;
-  z-index: 99;
-  font-family: 'Merriweather', serif;
+    display: flex;
+    position: relative;
+    bottom: 0px;
+    width: 55vw;
+    background-color: MediumSeaGreen;
+    color: white;
+    z-index: 99;
+    font-family: 'Merriweather', serif;
 }
 
 a {
-  color: white;
-  text-decoration-color: white;
+    color: white;
+    text-decoration-color: white;
 }
 
 #mainContentSignUp {
-  padding: 30px;
-  display: inline-block;
-  /*cssgradient.io*/
-  text-align: left;
-  color: black;
-  margin-top: 70px;
-  margin-left: 40%;
-  margin-right: auto;
-  margin-bottom: 50px;
-  font-family: 'Merriweather', serif;
-  border-radius: 50px;
-  box-shadow: -0px 0px 30px darkgrey;
-  font-size: 20px;
+    padding: 30px;
+    display: inline-block;
+    /*cssgradient.io*/
+    text-align: left;
+    color: black;
+    margin-top: 70px;
+    margin-left: 40%;
+    margin-right: auto;
+    margin-bottom: 50px;
+    font-family: 'Merriweather', serif;
+    border-radius: 50px;
+    box-shadow: -0px 0px 30px darkgrey;
+    font-size: 20px;
 }
 
 #submit {
-  font-size: 25px;
-  font-family: "Lobster";
-  text-align: center;
-  display: block;
-  border: 0;
-  background-image: linear-gradient(green, limegreen);
-  color: white;
-  font-weight: bold;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 4px;
-  width: 100px;
-  height: 30px;
-  cursor: pointer;
+    font-size: 25px;
+    font-family: "Lobster";
+    text-align: center;
+    display: block;
+    border: 0;
+    background-image: linear-gradient(green, limegreen);
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
 }
 
 #submitNewsletter {
-  font-size: 15px;
-  font-family: "Oswald";
-  text-align: center;
-  border: 30;
-  border-radius: 10px;
-  border-color: white;
-  background-color: MediumSeaGreen;
-  color: white;
-  width: 75px;
-  height: 50px;
-  transform: translate(00%, 5%);
+    font-size: 15px;
+    font-family: "Oswald";
+    text-align: center;
+    border: 30;
+    border-radius: 10px;
+    border-color: white;
+    background-color: MediumSeaGreen;
+    color: white;
+    width: 75px;
+    height: 50px;
+    transform: translate(00%, 5%);
 }
 
 l>a:link {
-  text-decoration: none;
-  color: green;
+    text-decoration: none;
+    color: green;
 }
 
 l>a:visited {
-  text-decoration: none;
-  color: green;
+    text-decoration: none;
+    color: green;
 }
 
 l>a:hover {
-  text-decoration: none;
-  color: orange;
+    text-decoration: none;
+    color: orange;
 }
 
 .signUpLargeBtns {
-  padding-top: 20px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  font-size: 50px;
-  font-family: "Lobster", cursive;
-  width: 100vw;
-  height: 60vh;
-  background-color: mediumseagreen;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: "Lobster", cursive;
+    width: 100vw;
+    height: 60vh;
+    background-color: mediumseagreen;
 }
 
 .signUpText {
-  color: #EEE;
-  font-size: 70px;
-  margin-bottom: 25px;
+    color: #EEE;
+    font-size: 70px;
+    margin-bottom: 25px;
 }
 
 .signUpBtnContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .signUpBtn>a {
-  text-decoration: none;
-  color: peru;
-  cursor: pointer;
+    text-decoration: none;
+    color: peru;
+    cursor: pointer;
 }
 
 .signUpBlock {
-  font-family: sans-serif;
-  padding-left: 20px;
-  font-size: 30px;
-  color: #DDD;
-  display: flex;
-  width: 100vw;
-  height: 60vh;
-  background-color: grey;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
+    font-family: sans-serif;
+    padding-left: 20px;
+    font-size: 30px;
+    color: #DDD;
+    display: flex;
+    width: 100vw;
+    height: 60vh;
+    background-color: grey;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 
 .parentSingup.signUpBlock {
-  background-color: #9653c0;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+    background-color: #9653c0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .mentorSingup.signUpBlock {
-  background-color: #bc6e7f;
+    background-color: #bc6e7f;
 }
 
 .bannerHeading {
-  text-align: center;
-  font-size: 40px;
-  font-family: "Lobster", cursive;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Lobster", cursive;
 }
 
 .parentForm {
-  width: 50vw;
-  flex-grow: 1;
-  align-self: center;
+    width: 50vw;
+    flex-grow: 1;
+    align-self: center;
 }
 
 .form {
-  width: 50vw;
-  flex-grow: 1;
-  align-self: center;
+    width: 50vw;
+    flex-grow: 1;
+    align-self: center;
 }
 
 .parentBanner {
-  width: 50vw;
-  flex-grow: 1;
+    width: 50vw;
+    flex-grow: 1;
 }
 
 .submitEmail {
-  font-size: 25px;
-  font-family: "Lobster";
-  text-align: center;
-  display: block;
-  border: 0;
-  background-image: linear-gradient(green, limegreen);
-  color: white;
-  font-weight: bold;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 4px;
-  width: 100px;
-  height: 30px;
+    font-size: 25px;
+    font-family: "Lobster";
+    text-align: center;
+    display: block;
+    border: 0;
+    background-image: linear-gradient(green, limegreen);
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    width: 100px;
+    height: 30px;
 }
 
 .banner {
-  width: 50vw;
-  flex-grow: 1;
+    width: 50vw;
+    flex-grow: 1;
 }
 
 input {
-  background-color: white;
-  border: none;
-  color: green;
-  padding: 16px 32px;
-  text-decoration: none;
-  margin: 5px;
-  cursor: pointer;
+    background-color: white;
+    border: none;
+    color: green;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 5px;
+    cursor: pointer;
 }
 
 .bigbtn {
-  background-color: peru;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-family: "Lobster";
-  font-size: 25px;
-  cursor: pointer;
+    background-color: peru;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Lobster";
+    font-size: 25px;
+    cursor: pointer;
 }
 
 .formAlign {
-  align-items: flex-start;
-  text-align: left;
-  margin-left: 20vw;
+    align-items: flex-start;
+    text-align: left;
+    margin-left: 20vw;
 }
 
 /*Media Query For Tablets*/
 @media only screen and (max-width: 800px) {
-  #heading {
-    font-size: 20px;
-    top: 14px;
-  }
+    #heading {
+        font-size: 20px;
+        top: 14px;
+    }
 
-  .card-container {
-    flex-direction: column;
-  }
+    .card-container {
+        flex-direction: column;
+    }
 
-  #cardBlock {
-    width: 90%;
-    height: auto;
-  }
+    #cardBlock {
+        width: 90%;
+        height: auto;
+    }
 
-  input {
-    padding: 4px 16px;
-    margin: 2px;
-  }
+    input {
+        padding: 4px 16px;
+        margin: 2px;
+    }
 
-  .tutorial-big-container {
-    flex-direction: column;
-  }
+    .tutorial-big-container {
+        flex-direction: column;
+    }
 
-  .tutorial-flex-container {
-    height: auto;
-    width: 90vw;
-    border-radius: 10px;
-  }
+    .tutorial-flex-container {
+        height: auto;
+        width: 90vw;
+        border-radius: 10px;
+    }
 
-  .tutorial-flex-container2 {
-    height: auto;
-    width: 90vw;
-    border-radius: 10px;
-  }
+    .tutorial-flex-container2 {
+        height: auto;
+        width: 90vw;
+        border-radius: 10px;
+    }
 
-  #mainContentTutorial {
-    font-size: 2.5vw;
-  }
+    #mainContentTutorial {
+        font-size: 2.5vw;
+    }
 
-  #mainImageTutorial {
-    display: none;
-  }
+    #mainImageTutorial {
+        display: none;
+    }
 
-  #mainImageTutorialRight {
-    display: none;
-  }
+    #mainImageTutorialRight {
+        display: none;
+    }
 
-  #mainImage {
-    max-width: 100vw;
-    width: 90vw;
-    height: 50%;
-    max-height: 100%;
-  }
+    #mainImage {
+        max-width: 100vw;
+        width: 90vw;
+        height: 50%;
+        max-height: 100%;
+    }
 
-  #topLeftImage {
-    visibility: hidden;
-  }
+    #topLeftImage {
+        visibility: hidden;
+    }
 
-  .socmed-container {
-    flex-direction: row;
-    width: 130px;
-    margin-right: 5px;
-  }
+    .socmed-container {
+        flex-direction: row;
+        width: 130px;
+        margin-right: 5px;
+    }
 
-  #headerContact {
-    width: 80vw;
-    padding: 10px;
-  }
+    #headerContact {
+        width: 80vw;
+        padding: 10px;
+    }
 
-  #mainContentContact {
-    width: 90%;
-    margin: auto;
-    margin-top: 20px;
-  }
+    #mainContentContact {
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    }
 
-  .flex-container-contact {
-    text-align: center;
-    flex-direction: column;
-    width: 90vw;
-  }
+    .flex-container-contact {
+        text-align: center;
+        flex-direction: column;
+        width: 90vw;
+    }
 
-  .fa {
-    width: 15px;
-    height: 15px;
-    text-align: center;
-    text-decoration: none;
-    background: white;
-    color: grey;
-    box-shadow: 0px 0px 2px grey;
-    border-radius: 2px;
-    margin: 0px;
-  }
+    .fa {
+        width: 15px;
+        height: 15px;
+        text-align: center;
+        text-decoration: none;
+        background: white;
+        color: grey;
+        box-shadow: 0px 0px 2px grey;
+        border-radius: 2px;
+        margin: 0px;
+    }
 
-  #footerBar-Container {
-    justify-content: space-around;
-    width: auto;
-    padding: 0px;
-    flex-wrap: wrap;
-  }
+    #footerBar-Container {
+        justify-content: space-around;
+        width: auto;
+        padding: 0px;
+        flex-wrap: wrap;
+    }
 
-  #footerBar {
-    text-align: center;
-    flex-direction: row;
-    width: auto;
-  }
+    #footerBar {
+        text-align: center;
+        flex-direction: row;
+        width: auto;
+    }
 
-  iframe {
-    width: 90%;
-    height: 200px;
-  }
+    iframe {
+        width: 90%;
+        height: 200px;
+    }
 
-  .signUpWords {
-    font-size: 25px;
-  }
+    .signUpWords {
+        font-size: 25px;
+    }
 
-  .signUpBlock {
-    flex-direction: column;
-    height: 80vh;
-    overflow: auto;
-  }
+    .signUpBlock {
+        flex-direction: column;
+        height: 80vh;
+        overflow: auto;
+    }
 
-  .banner.media {
-    flex-grow: 1;
-  }
+    .banner.media {
+        flex-grow: 1;
+    }
 
-  .form {
-    width: 80vw;
-    flex-grow: 1;
-  }
+    .form {
+        width: 80vw;
+        flex-grow: 1;
+    }
 
-  .formAlign {
-    margin-left: 20vw;
-  }
+    .formAlign {
+        margin-left: 20vw;
+    }
 }
 
 /*Media Query For Mobile*/
 @media only screen and (max-width: 550px) {
-  #heading {
-    font-size: 19px;
-    top: 17px;
-    padding: 0px;
-  }
+    #heading {
+        font-size: 19px;
+        top: 17px;
+        padding: 0px;
+    }
 
-  .card-container {
-    flex-direction: column;
-  }
+    .card-container {
+        flex-direction: column;
+    }
 
-  #cardBlock {
-    width: 90%;
-    height: auto;
-  }
+    #cardBlock {
+        width: 90%;
+        height: auto;
+    }
 
-  #mainImage {
-    max-width: 100vw;
-    width: 90vw;
-    height: 50%;
-    max-height: 100%;
-  }
+    #mainImage {
+        max-width: 100vw;
+        width: 90vw;
+        height: 50%;
+        max-height: 100%;
+    }
 
-  #topLeftImage {
-    visibility: hidden;
-  }
+    #topLeftImage {
+        visibility: hidden;
+    }
 
-  .formAlign {
-    margin-left: 15vw;
-  }
+    .formAlign {
+        margin-left: 15vw;
+    }
 
-  .socmed-container {
-    flex-direction: column;
-    width: 5vw;
-    margin-top: 0;
-    margin-right: 30px;
-    padding-top: 2px
-  }
+    .socmed-container {
+        flex-direction: column;
+        width: 5vw;
+        margin-top: 0;
+        margin-right: 30px;
+        padding-top: 2px
+    }
 
-  .fa {
-    padding: 1px;
-    margin: 0px;
-    width: 10vw;
-    height: auto;
-    text-align: center;
-    text-decoration: none;
-    background: white;
-    color: grey;
-    box-shadow: 0px 0px 2px grey;
-    border-radius: 2px;
-  }
+    .fa {
+        padding: 1px;
+        margin: 0px;
+        width: 10vw;
+        height: auto;
+        text-align: center;
+        text-decoration: none;
+        background: white;
+        color: grey;
+        box-shadow: 0px 0px 2px grey;
+        border-radius: 2px;
+    }
 
-  #mainContentContact {
-    width: 90%;
-    margin: auto;
-    margin-top: 20px;
-  }
+    #mainContentContact {
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    }
 
-  .flex-container-contact {
-    text-align: center;
-    flex-direction: column;
-    width: 90vw;
-  }
+    .flex-container-contact {
+        text-align: center;
+        flex-direction: column;
+        width: 90vw;
+    }
 
-  #footerBar-Container {
-    justify-content: space-around;
-    width: 100vw;
-    padding: 0px;
-    flex-wrap: wrap;
-  }
+    #footerBar-Container {
+        justify-content: space-around;
+        width: 100vw;
+        padding: 0px;
+        flex-wrap: wrap;
+    }
 
-  #footerBar {
-    text-align: left;
-    flex-direction: row;
-  }
+    #footerBar {
+        text-align: left;
+        flex-direction: row;
+    }
 
-  html {
-    overflow-x: visible;
-    margin: 0;
-    height: 100%;
-  }
+    html {
+        overflow-x: visible;
+        margin: 0;
+        height: 100%;
+    }
 
-  .signUpWords {
-    font-size: 20px;
-  }
+    .signUpWords {
+        font-size: 20px;
+    }
 
-  .signUpBlock {
-    flex-direction: column;
-    overflow: auto;
-  }
+    .signUpBlock {
+        flex-direction: column;
+        overflow: auto;
+    }
 
-  .banner.media {
-    width: 80vw;
-    flex-grow: 1;
-  }
+    .banner.media {
+        width: 80vw;
+        flex-grow: 1;
+    }
 
-  .form {
-    width: 80vw;
-    flex-grow: 1;
-  }
+    .form {
+        width: 80vw;
+        flex-grow: 1;
+    }
 
-  iframe {
-    width: 90%;
-    height: 150px;
-  }
+    iframe {
+        width: 90%;
+        height: 150px;
+    }
 }
