@@ -124,9 +124,8 @@ audio {
   top: 20vw;
   left: 50vw;
   width: 40vw;
-  height: 20vw;
-  max-height: 20vh;
-  object-fit: contain;
+  height: 56%;
+  object-fit: scale-down;
   transform: translate(-50%, -20%);
   -webkit-filter: drop-shadow(5px 5px 5px #222);
   filter: drop-shadow(-5px 5px 5px #222);
@@ -221,7 +220,15 @@ audio {
 .tutorial-flex-container {
   display: flex;
   justify-content: space-around;
-  border-radius: 10px;
+  border-radius: 0px 10px 10px 0px;
+  box-shadow: -0px -0px 15px darkgrey;
+  width: 70vw;
+}
+
+.tutorial-flex-container2 {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px 0px 0px 10px;
   box-shadow: -0px -0px 15px darkgrey;
   width: 70vw;
 }
@@ -324,17 +331,17 @@ audio {
 #mainImageTutorial {
   width: 50%;
   height: 100%;
-  margin-right: 20px;
+  margin-right: 0px;
   border-radius: 10px 0 0 10px;
-  object-fit: contain, cover;
+  object-fit: contain;
 }
 
 #mainImageTutorialRight {
   width: 50%;
   height: 100%;
   border-radius: 0 10px 10px 0;
-  margin-left: 20px;
-  object-fit: contain, cover;
+  margin-left: 0px;
+  object-fit: contain;
 }
 
 #mainImageAbout {
@@ -413,10 +420,11 @@ audio {
 #mainContentTutorial {
   margin-top: 50px;
   display: flex;
+  flex-direction: row;
   background: #f5f5f5;
   text-align: left;
   color: black;
-  width: 65vw;
+  width: 85vw;
   max-width: 1700px;
   margin-left: auto;
   margin-right: auto;
@@ -534,11 +542,25 @@ audio {
   text-align: center;
 }
 
+.donateButton {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: inherit;
+  border-style: none;
+  border-radius: 100px;
+  -webkit-filter: drop-shadow(0px 0px 2px darkgrey);
+  filter: drop-shadow(0px 0px 2px darkgrey);
+}
+.donateButton:hover {
+  -webkit-filter: drop-shadow(0px 0px 2px #222);
+  filter: drop-shadow(0px 0px 15px orange);
+}
 .donateOptions {
   color: #EEE;
   display: grid;
-  grid-template-columns: 15vw 25vw 20vw 25vw 15vw;
-  grid-template-rows: 10vw 5vw 10vw 5vw;
   text-align: center;
   font-size: 40px;
   font-family: sans-serif;
@@ -554,7 +576,8 @@ audio {
   font-size: 2em;
   text-align: center;
   font-size: 40px;
-  font-family: sans-serif;
+  font-family: "Lobster";
+  padding: 50px;
   margin: auto
 }
 
@@ -838,6 +861,13 @@ input {
   .tutorial-flex-container {
     height: auto;
     width: 90vw;
+    border-radius: 10px;
+  }
+
+  .tutorial-flex-container2 {
+    height: auto;
+    width: 90vw;
+    border-radius: 10px;
   }
 
   #mainContentTutorial {
