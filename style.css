@@ -157,6 +157,7 @@ audio {
     animation: colorRotate 3s linear infinite;
 }
 
+/*The animation below is taken from https://codepen.io/lukeandersen/pen/fdpkD */
 @keyframes colorRotate {
     100% {
         -webkit-filter: hue-rotate(360deg);
@@ -469,6 +470,11 @@ audio {
     color: green;
 }
 
+.removeBullet {
+    list-style: none;
+    font-weight: bold;
+}
+
 .body404 {
     display: flex;
     flex-direction: column;
@@ -482,15 +488,82 @@ audio {
 
 .returnText {
     font-family: sans-serif;
-    color: peru;
+    color: black;
     font-size: 30px;
 }
 
 .text404 {
+    text-align: center;
     font-size: 40px;
     font-family: 'Lobster', cursive;
     color: green;
 }
+
+.donateList {
+    display: flex;
+    margin: 15px;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    line-height: 45px;
+    text-align: left;
+}
+
+.donateListItem {
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 60vw;
+}
+
+.donateOptions {
+    color: #EEE;
+    display: grid;
+    grid-template-columns: 15vw 25vw 20vw 25vw 15vw;
+    grid-template-rows: 10vw 5vw 10vw 5vw;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    /*gradient made on https://cssgradient.io/*/
+    background: rgb(205, 133, 63);
+    background: linear-gradient(180deg, rgba(205, 133, 63, 1) 0%, rgba(60, 179, 113, 1) 100%);
+    margin: auto
+}
+
+.topBar {
+    grid-area: 1/1/2/6;
+    color: #EEE;
+    font-size: 2em;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin: auto
+}
+
+.option1 {
+    grid-area: 3/2/4/3;
+    font-size: 50px;
+    background: peru;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.option2 {
+    font-size: 50px;
+    grid-area: 3/4/4/5;
+    background: peru;
+    margin: auto;
+    margin-left: 7px;
+    margin-right: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
 
 .centered-element {
     position: absolute;
