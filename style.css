@@ -32,6 +32,16 @@ audio {
     border-radius 10px;
 }
 
+.Copyright {
+  text-align: center;
+  color: white;
+  background-color: mediumseagreen;
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
+  -webkit-filter: drop-shadow(0px 0px 1px white);
+  filter: drop-shadow(0px 0px 1px white);
+}
 .paddingbottom20 {
     padding-bottom: 20px;
 }
