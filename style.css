@@ -19,7 +19,6 @@ a {
 
 ul {
   margin-left: 20px;
-  ;
   padding-left: 0;
   padding-right: 20px;
 }
@@ -27,6 +26,31 @@ ul {
 h2 {
   padding: 0;
   margin: 0;
+}
+
+audio {
+  border-radius 10px;
+}
+
+.paddingbottom20 {
+  padding-bottom: 20px;
+}
+
+.paddingbottom40 {
+  padding-bottom: 40px;
+}
+
+.padding2margin5 {
+  padding: 2px;
+  margin: 5px;
+}
+
+.latofont {
+  font-family: 'Lato', sans-serif;
+}
+
+.paddingLatoAbout {
+  padding: 20px;
 }
 
 /*Dropdown menu code sourced from w3schools, edited by Tom*/
@@ -457,6 +481,10 @@ audio {
   padding: 0.5vw;
 }
 
+#footerBar-Container.noTopBorder {
+  border-top: none;
+}
+
 #mainContentContact {
   background: #f5f5f5;
   text-align: left;
@@ -466,7 +494,8 @@ audio {
   font-family: 'Merriweather', serif;
   border-radius: 10px;
   box-shadow: -0px 0px 15px darkgrey;
-  font-size: 18px
+  font-size: 18px;
+  padding: 10px;
 }
 
 #headerContact {
@@ -554,10 +583,12 @@ audio {
   -webkit-filter: drop-shadow(0px 0px 2px darkgrey);
   filter: drop-shadow(0px 0px 2px darkgrey);
 }
+
 .donateButton:hover {
   -webkit-filter: drop-shadow(0px 0px 2px #222);
   filter: drop-shadow(0px 0px 15px orange);
 }
+
 .donateOptions {
   color: #EEE;
   display: grid;
