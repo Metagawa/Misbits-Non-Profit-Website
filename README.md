@@ -1,8 +1,9 @@
 # Misbits-Non-Profit-Website  
 * [Live site](https://tomc17.github.io/Misbits-Non-Profit-Website/signup.html)  
-A website for a coding learning centre non profit
+
 
 ![](lclc.gif)  
+A website for a coding learning centre non profit  
 
 ## Built With
 
