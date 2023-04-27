@@ -1,5 +1,5 @@
 # Misbits-Non-Profit-Website  
-* [Live site](https://tomc17.github.io/Misbits-Non-Profit-Website/signup.html)  
+* [Live site](https://metagawa.github.io/Misbits-Non-Profit-Website/)  
 
 
 ![](lclc.gif)  
